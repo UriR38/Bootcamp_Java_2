@@ -19,8 +19,10 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las practi
   - [x] [Ejerciccios de resolución de conflictos](/2.%20Git%20&%20Markdown/Ejercicios%20de%20resolución%20de%20conflictos.pdf)  
  ---
  #### HTML  
- >[Ejercicios](/3.%20HTML/)  
-  - [x] [Ejercicio 1: Anclas](/3.%20HTML/Ejercicios%20doc/anclas.html)  
-  - [x] [Ejercicio 2: Mozilla](/3.%20HTML/Ejercicios%20doc/mozilla.html)
-  - [x] [Ejercicio 3: Patatas fritas](/3.%20HTML/Ejercicios%20doc/patatas_fritas.html)  
+ #### Carpeta con todos los archivo HTML [📁](/3.%20HTML/)  
+ 
+>Ejercicios del .doc
+  >- [x] [Ejercicio 1: Anclas](/3.%20HTML/Ejercicios%20doc/anclas.html)  
+  >- [x] [Ejercicio 2: Mozilla](/3.%20HTML/Ejercicios%20doc/mozilla.html)
+  >- [x] [Ejercicio 3: Patatas fritas](/3.%20HTML/Ejercicios%20doc/patatas_fritas.html)  
   
