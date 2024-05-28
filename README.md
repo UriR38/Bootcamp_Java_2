@@ -17,4 +17,13 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las practi
   - [x] [Ejercicios del temario Git - 6](/2.%20Git%20&%20Markdown/Ejercicios%20-%20Temario%20Git%20Ejercicio%206.pdf)  
   - [x] [Ejercicios del temario Git Bash ](/2.%20Git%20&%20Markdown/Ejercicios%20-%20Temario%20Git%20Ejercicio%20de%20Git%20bash.pdf)  
   - [x] [Ejerciccios de resolución de conflictos](/2.%20Git%20&%20Markdown/Ejercicios%20de%20resolución%20de%20conflictos.pdf)  
-  
+    
+    - - -
+      #### 3. HTML  
+
+      > [Ejercicios](/3.%20HTML)  
+
+       \[HTML\] - Ejercicios  
+      - [x] [Ejercicio 1: Anclas](/3.%20HTML/HTML_Ejercicio1/anclas.html)  
+      - [x] [Ejercicio 2: Mozilla](/3.%20HTML/HTML_Ejercicio1/mozilla.html)
+      - [x] [Ejercicio 3: Patatas fritas](/3.%20HTML/HTML_Ejercicio1/patatas_fritas.html)
