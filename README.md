@@ -20,7 +20,7 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las practi
  ---
  #### HTML  
  >[Ejercicios](/3.%20HTML/)  
-  - [x] [Ejercicio 1: Anclas](/3.%20HTML/HTML_Ejercicio1/anclas.html)  
-  - [x] [Ejercicio 2: Mozilla](/3.%20HTML/HTML_Ejercicio1/mozilla.html)
-  - [x] [Ejercicio 3: Patatas fritas](/3.%20HTML/HTML_Ejercicio1/patatas_fritas.html)  
+  - [x] [Ejercicio 1: Anclas](/3.%20HTML/Ejercicios%20doc/anclas.html)  
+  - [x] [Ejercicio 2: Mozilla](/3.%20HTML/Ejercicios%20doc/mozilla.html)
+  - [x] [Ejercicio 3: Patatas fritas](/3.%20HTML/Ejercicios%20doc/patatas_fritas.html)  
   
