@@ -32,4 +32,11 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las practi
     >- [x] [Ejercicio 3: Envío de datos mediante a un formulario](/3.%20HTML/Ejercicios%20doc/Envío%20de%20datos%20mediante%20a%20un%20formulario.html)
 
  #### CSS  
- #### Carpeta con todos los archivo CSS 📁
+ #### Carpeta con todos los archivo CSS [📁](./4.%20CSS/)  
+ > Ejercicios de la teoria
+ >- [x] [1. Ejercicios de associar un documento css a un html](/4.%20CSS/1.%20Ejercicios%20de%20associar%20un%20documento%20css%20a%20un%20html/)  
+ >- [x] [2. Input CSS](/4.%20CSS/2.%20Input%20CSS/index.html)  
+ >- [x] [3. Ejercicios de selectores CSS Diner](/4.%20CSS/3.%20Ejercicios%20de%20selectores%20CSS%20Diner/respuestas.md)  
+ >- [x] [4. Ejercicios de selectores CSS Lever](/4.%20CSS/4.%20Ejercicios%20de%20selectores%20CSS%20Lever/respuestas.md)  
+ >- [x] [5. Ejercicios de selectores](/4.%20CSS/5.%20Ejercicios%20de%20selectores/)  
+ >- [x] [6. Ejercicios de selectores Speedrun](/4.%20CSS/6.%20Ejercicios%20de%20selectores%20Speedrun/respuestas.md)  

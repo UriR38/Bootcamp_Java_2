@@ -1,0 +1,8 @@
+input:out-of-range {
+  background-color: tomato;
+  border: solid red;
+}
+input:in-range {
+  background-color: greenyellow;
+  border: solid green;
+}

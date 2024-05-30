@@ -1,0 +1,73 @@
+/* 1. Selecciona todos los elementos */
+* {
+  background-color: beige;
+}
+
+/* 2. Slecciona todos los elementos que sean tipo p */
+p {
+  color: magenta;
+}
+
+/* 3. Selecciona todos los elementos con ID title-1 */
+#title-1 {
+  color: red;
+}
+
+/* 4. Selecciona todos los elementos que pertenezca a la clase .bg-yellow */
+.bg-yellow {
+  background-color: yellow;
+}
+
+/* 5. Selecciona todos los elementos que tengan el atributo ID */
+* #title-1 {
+  background-color: rgb(0, 81, 255);
+}
+/* 6. Selecciona todos los elementos que tengan el atributo ID y valor title-1 */
+* #title-1 {
+  background-color: rgb(0, 255, 247);
+}
+/* 7. Selecciona todos los elementos que tengan el atributo HREF con un valor https://www.yahoo.com */
+[href="https://www.yahoo.com"]
+{
+  background-color: rgba(89, 190, 91, 0.709);
+}
+/* 8. Selecciona todos los elementos que tengan el atributo class con un valor que eimpiece por title */
+[class^="title"] {
+  background-color: chocolate;
+}
+/* 9. Selecciona todos los elementos que tengan el atributo HREF y acaben en .com */
+[href$=".com"] {
+  background-color: darkolivegreen;
+}
+/* 10. Selecciona todos los elementos que tengan el atributo class con un valor title, title-1, title2... */
+[class^="title"] {
+  background-color: rgb(210, 30, 93);
+}
+/* 11. Selecciona todos los elementos que tengan un atributo href y cuyo valor conteng 127*/
+[href*="127"] {
+  background-color: rgba(47, 56, 107, 0.596);
+}
+/* 12. Selecciona todos los elementos que  tengan el atributo href y cuyo valor empiece por http*/
+[href^="https"] {
+  background-color: limegreen;
+}
+/* 13. Selecciona los elementos que sean A,P o H1 desde una única regla CSS  */
+a, p, h1{
+    color: rgb(118, 118, 53);
+}
+/* 14. Selecciona todos los elementos que pertezcan a main y sean P */
+main p{
+    background-color: aqua;
+}
+/* 15. Selecciona el siguiente elemento que sea hermano de H1 */
+h1 > p{
+    background-color: black;
+}
+/* 16. Selecciona todos los elementos que sean hermanos de H1 */
+h1 p{
+    background-color: black;
+}
+/* 17. Selecciona todos los elementos que sean hermanos de main */
+main >{
+    background-color: chartreuse;
+}
