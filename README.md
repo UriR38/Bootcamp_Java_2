@@ -63,8 +63,8 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las practi
 > - [x] [9. Ejercicio de bordes](./4.%20CSS/9.%20Ejercicio%20de%20bordes/)  
 > - [x] [10. Ejercicio text aling](./4.%20CSS/10.%20Ejercicio%20text%20aling/)  
 > - [x] [11. Ejercicio border radius circular](./4.%20CSS/11.%20Ejercicio%20border%20radius%20circular/)  
-> - [ ] [12. ]()  
+<!-- > - [ ] [12. ]()  
 > - [ ] [13. ]()  
 > - [ ] [14. ]()  
-> - [ ] [15. ]()  
+> - [ ] [15. ]()   -->
  
