@@ -1,0 +1,19 @@
+html {
+  background-color: beige;
+}
+p {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: solid 2px brown;
+}
+h1 {
+  color: brown;
+}
+span:hover {
+  color: darksalmon;
+}
+
+p::selection {
+  color: palevioletred;
+  background-color: khaki;
+}

@@ -1,0 +1,18 @@
+*{
+    background-color: beige;
+}
+
+div{
+    border: 5px;
+    border-right: dashed 10px blue;
+    border-top: dotted 5px green;
+    border-left: double 10px;
+    border-bottom: solid 5px red;
+}
+
+h1{
+    padding: 50px 50px 1px 50px;
+}
+p{
+    padding: 5px 50px 50px 50px;
+}

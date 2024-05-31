@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+  filter: drop-shadow(5px 5px 10px #000);
+}
+span {
+  background-color: #2eb8bdd2;
+  font-size: x-large;
+}
+
+table {
+  background-color: bisque;
+  text-align: center;
+  border: solid thick;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+tbody td {
+  border-top: none;
+  border-bottom: solid medium;
+  border-left: solid;
+}
+tfoot {
+  background-color: #2eb8bdd2;
+}

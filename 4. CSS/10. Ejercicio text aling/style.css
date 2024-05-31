@@ -1,0 +1,26 @@
+* {
+  background-color: beige;
+}
+
+h2 {
+  border: solid 2px grey;
+  border-radius: 5px;
+  width: 300px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.caja1 {
+  background-color: aliceblue;
+  text-align: left;
+}
+.caja2 {
+  background-color: aliceblue;
+  text-align: center;
+}
+.caja3 {
+  background-color: aliceblue;
+  text-align: right;
+}
