@@ -1,0 +1,147 @@
+:root {
+  /* Very light-gray (background, headings, buttons)  */
+  --Very-light-gray: hsl(0, 0%, 95%);
+
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--Very-light-gray);
+  font-size: 15px;
+  color: var(--Very-light-gray);
+}
+.container {
+  display: grid;
+  margin: 12rem 11rem;
+  justify-items: center;
+}
+.bloque1 {
+  background-color: var(--Bright-orange);
+}
+.bloque2 {
+  background-color: var(--Dark-cyan);
+}
+.bloque3 {
+  background-color: var(--Very-dark-cyan);
+}
+
+.bloque1 a {
+  color: var(--Bright-orange);
+}
+.bloque2 a {
+  color: var(--Dark-cyan);
+}
+.bloque3 a {
+  color: var(--Very-dark-cyan);
+}
+
+a {
+  align-items: flex-end;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: var(--Very-light-gray);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+a:hover {
+  border: solid var(--Very-light-gray);
+  background-color: transparent;
+  color: var(--Very-light-gray);
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Resoluciones pc */
+@media (min-width: 936px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .bloque1,
+  .bloque2,
+  .bloque3 {
+    height: 500px;
+  }
+  .bloque1 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .bloque3 {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  img {
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    margin-left: 35px;
+    margin-bottom: 40px;
+  }
+  p {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 150px;
+  }
+
+  .buttons {
+    margin-left: 35px;
+    margin-top: 400px;
+    margin-bottom: 40px;
+    text-decoration: none;
+  }
+}
+
+/* Resoluciones movil */
+@media (max-width: 935px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .bloque1,
+  .bloque2,
+  .bloque3 {
+    height: 500px;
+    min-height: 0;
+  }
+  .bloque1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .bloque3 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  img {
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    margin-left: 35px;
+    margin-bottom: 40px;
+  }
+  p {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 150px;
+  }
+
+  .buttons {
+    margin-left: 35px;
+    margin-top: 300px;
+    margin-bottom: 40px;
+    text-decoration: none;
+  }
+}
