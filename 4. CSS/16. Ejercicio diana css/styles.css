@@ -1,0 +1,77 @@
+main{
+    margin: 0px;
+    box-shadow: 45px black;
+}
+.ciculo{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    border-radius: 50%;
+    
+}
+
+#circulo1{
+    z-index: 10;
+    position: absolute;
+    background-color: red;
+    height:500px;
+    width: 500px;
+    left: 50px;
+    top: 50px;
+}
+
+#circulo2{
+    z-index: 20;
+    position: absolute;
+    background-color: white;
+    height:400px;
+    width: 400px;
+    left: 100px;
+    top: 100px;
+}
+#circulo3{
+    z-index: 30;
+    position: absolute;
+    background-color: red;
+    height:300px;
+    width: 300px;
+    left: 150px;
+    top: 150px;
+}
+#circulo4{
+    z-index: 30;
+    position: absolute;
+    background-color: white;
+    height:200px;
+    width: 200px;
+    left: 200px;
+    top: 200px;
+}
+#circulo5{
+    z-index: 40;
+    position: absolute;
+    background-color: red;
+    height:100px;
+    width: 100px;
+    left: 250px;
+    top: 250px;
+}
+#linea1{
+    z-index: 50;
+    position: relative;
+    border: solid;
+    height: 500px;
+    width: 0px;
+    top: 42px;
+    left: 293px;
+}
+#linea2{
+    z-index: 50;
+    position: relative;
+    border: solid;
+    height: 0px;
+    width: 500px;
+    bottom: 210px;
+    left: 42px;
+}
+

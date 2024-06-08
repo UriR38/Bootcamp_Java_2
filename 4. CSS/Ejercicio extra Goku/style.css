@@ -1,0 +1,13 @@
+.goku{
+  filter: drop-shadow(0px 0px 50px rgb(255, 242, 0));
+
+  width: 50%;
+  margin: 10%;
+  padding: 10%;
+}
+.goku:hover{
+  filter: drop-shadow(0px 0px 50px rgb(255, 157, 0));
+}
+body{
+  background-color: rgb(32, 37, 37);
+}

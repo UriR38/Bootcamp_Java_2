@@ -1,0 +1,81 @@
+.circulo {
+  border: solid 2px black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.circulo-1 {
+  background-color: red;
+  mix-blend-mode: screen;
+  float: left;
+  
+}
+.circulo-2 {
+  background-color: green;
+  mix-blend-mode: screen;
+  float: left;
+}
+.circulo-3 {
+  background-color: blue;
+
+  mix-blend-mode: screen;
+  float: left;
+}
+h2 {
+  clear: both;
+}
+
+.mezcla {
+  position: relative;
+  border: solid 2px black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.color-box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.rgb{
+  position: relative;
+    width: 200px;
+    height: 200px;
+
+
+}
+.rgb-color{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid;
+  mix-blend-mode: screen;
+  opacity: 0.7;
+}
+
+.red {
+  background-color: red;
+  top: 0px;
+  left: 0px;
+}
+
+.green {
+  background-color: green;
+  top: 0px;
+  left: 50px;
+}
+
+.blue {
+  background-color: blue;
+  top: 50px;
+  left: 25px;
+}

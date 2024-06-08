@@ -1,0 +1,150 @@
+body{
+  margin: 0px;
+}
+.box {
+  width: 100%;
+  height: 10px;
+}
+.box-1,
+.box-2 {
+  margin-bottom: 1px;
+  float: left;
+}
+
+.box-3 {
+  margin-top: 1px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.box-4,
+.box-5,
+.box-6 {
+  margin-bottom: 5px;
+  float: left;
+}
+
+.box-7,
+.box-8,
+.box-9,
+.box-10 {
+  background-color: grey;
+  margin-bottom: 5px;
+  float: left;
+}
+
+/* 320px */
+@media (width <= 320px) {
+  .box-1,
+  .box-2 {
+    background-color: orange;
+    height: 4vh;
+  }
+
+  .box-3 {
+    background-color: yellowgreen;
+    height: 5vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .box-4,
+  .box-5,
+  .box-6 {
+    background-color: mediumturquoise;
+    height: 22.5vh;
+    
+  }
+  .box-7,
+  .box-8,
+  .box-9,
+  .box-10 {
+    background-color: grey;
+    height: 3vh;
+    margin: 0px;
+  }
+
+}
+
+/* 768px */
+@media (321px <= width < 1023px) {
+  .box-1,
+  .box-2 {
+    background-color: orange;
+    height: 4vh;
+  }
+
+  .box-3 {
+    background-color: yellowgreen;
+    height: 22.5vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .box-4,
+  .box-5,
+  .box-6 {
+    background-color: mediumturquoise;
+    height: 15vh;
+    
+  }
+  .box-7,
+  .box-10 {
+    float: left;
+    background-color: grey;
+    height: 10vh;
+    width: 49%;
+  }
+  .box-9,
+  .box-8{
+    float: right;
+    background-color: grey;
+    height: 10vh;
+    width: 49%;
+  }
+}
+  /* 1024px */
+  @media (width >= 1024px) {
+    .box-1{
+      float: left;
+      background-color: orange;
+      height: 10vh;
+      width: 49.7%;
+      margin-bottom: 50px;
+    }
+  .box-2 {
+    float: right;
+    background-color: orange;
+    height: 10vh;
+    width: 49.7%;
+  }
+
+  .box-3 {
+    background-color: yellowgreen;
+    height: 37vh;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+  }
+
+  .box-4,
+  .box-5,
+  .box-6 {
+    float: left;
+    background-color: mediumturquoise;
+    height: 22.5vh;
+    width: 32.1vw;
+    margin: 20px;
+    
+  }
+  .box-7,
+  .box-8,
+  .box-9,
+  .box-10 {
+    background-color: grey;
+    height: 22.5vh;
+    width: 24vw;
+    margin: 20px;
+  }
+  }
+
