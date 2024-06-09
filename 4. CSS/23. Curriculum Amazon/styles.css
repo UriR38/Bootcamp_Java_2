@@ -1,0 +1,113 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+}
+.navbar img{
+    width: 100px;
+    grid-template-columns: 2;
+}
+.navbar-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    list-style: none;
+    justify-content: flex-start;
+}
+.navbar-menu li {
+    padding: 10px;
+}
+.navbar-menu a {
+    text-decoration: none;
+}
+/* Navbar 2 - La barra de abajo que en realidad no es nav pero weno xd */
+.nav2{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    
+}
+.nav2menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+}
+.nav2menu a{
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+}
+.NegritaGrande{ 
+    font-weight: bold;
+    font-size: 19px;
+}
+.Busqueda{
+    width: 26vw;
+    height: 33px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right-color: transparent;
+}
+.botonGo{
+    height: 40px;
+    margin-left: 0px;
+    background-color: rgb(59, 58, 57);
+    color: white;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.textNaranja{
+    color: rgb(221, 145, 5);
+}
+.flecha{
+    font-size: 13px;
+}
+.navbar, .nav2{
+    background: rgb(235,233,233);
+    background: linear-gradient(180deg, rgba(235,233,233,1) 90%, rgba(224,220,220,1) 100%, rgba(255,255,255,1) 100%); 
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    /* responsive de la navbar */
+    .navbar {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .navbar-menu {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .navbar-menu li {
+        padding: 5px;
+    }
+    .navbar-menu a {
+        display: block;
+        padding: 10px 0;
+    }
+    /* responsive de la segunda barra */
+    .nav2{
+        grid-template-columns: 1fr;
+    }
+    .nav2menu{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .nav2menu a, .buscarTT{
+        display: block;
+        padding: 10px 0 0px 20px;
+    }
+
+}
