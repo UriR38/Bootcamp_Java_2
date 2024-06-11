@@ -1,113 +1,262 @@
-body, ul, li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Navbar */
 .navbar {
-    display: grid;
-    grid-template-columns: 110px 1fr;
-    align-items: center;
-    padding: 10px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+  font-size: 14px;
 }
-.navbar img{
-    width: 100px;
-    grid-template-columns: 2;
+.navbar img {
+  width: 100px;
+  grid-template-columns: 2;
 }
 .navbar-menu {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    list-style: none;
-    justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  list-style: none;
+  justify-content: flex-start;
 }
 .navbar-menu li {
-    padding: 10px;
+  padding: 10px;
 }
 .navbar-menu a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* Navbar 2 - La barra de abajo que en realidad no es nav pero weno xd */
-.nav2{
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    align-items: center;
-    
+.nav2 {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
 }
-.nav2menu{
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    gap: 10px;
-    list-style: none;
-    padding: 10px;
-    align-items: center;
+.nav2menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px;
+  list-style: none;
+  padding: 10px;
+  align-items: center;
 }
-.nav2menu a{
-    text-decoration: none;
-    justify-content: center;
-    color: black;
+.nav2menu a {
+  text-decoration: none;
+  justify-content: center;
+  color: black;
+  font-size: 14px;
 }
-.NegritaGrande{ 
-    font-weight: bold;
-    font-size: 19px;
+.NegritaGrande {
+  font-weight: bold;
+  font-size: 16px;
 }
-.Busqueda{
-    width: 26vw;
-    height: 33px;
-    margin-left: 10px;
-    margin-right: 0px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-right-color: transparent;
+.Busqueda {
+  width: 24vw;
+  height: 33px;
+  margin-left: 10px;
+  margin-right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right-color: transparent;
 }
-.botonGo{
-    height: 40px;
-    margin-left: 0px;
-    background-color: rgb(59, 58, 57);
-    color: white;
-   border-top-right-radius: 5px;
-   border-bottom-right-radius: 5px;
+.botonGo {
+  height: 40px;
+  margin-left: 0px;
+  background-color: rgb(59, 58, 57);
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.textNaranja{
-    color: rgb(221, 145, 5);
+.textNaranja {
+  color: rgb(221, 145, 5);
 }
-.flecha{
-    font-size: 13px;
+.flecha {
+  font-size: 13px;
 }
-.navbar, .nav2{
-    background: rgb(235,233,233);
-    background: linear-gradient(180deg, rgba(235,233,233,1) 90%, rgba(224,220,220,1) 100%, rgba(255,255,255,1) 100%); 
+.navbar,
+.nav2 {
+  background: rgb(235, 233, 233);
+  background: linear-gradient(
+    180deg,
+    rgba(235, 233, 233, 1) 90%,
+    rgba(224, 220, 220, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
+/* Bloque informacion */
+.profile {
+  display: flex;
+}
+.imagenes {
+  width: 25%;
+  padding: 10px;
+}
+.imagenes img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.details {
+  width: 70%;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 0px;
+}
+.byOriol {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 12px;
+}
+.urlPerf {
+  color: #0073bb;
+}
+
+.rating {
+  font-size: 14px;
+  color: #ff9900;
+}
+.reseado {
+  color: #ff9900;
+}
+.byLinePipe {
+  color: #666;
+  font-size: 14px;
+}
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+ul li {
+  padding: 5px 0;
+}
+
+.negrita-sub {
+  font-weight: bold;
+}
+
+.Botones-azules {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr;
+  border: 1px solid #6daee1;
+  border-radius: 10px;
+  justify-content: stretch;
+  background-color: #ebf3ff;
+  margin-top: 10px;
+  margin-right: 50px;
+  height: 190px;
+}
+.Botones-azules button{
+  border-radius: 5px;
+  background-color: #e9eac5;
+  color: #13146c;
+  margin: 5%;
+  font-size: 12px;
+}
+
+.ComprarPregunta {
+  background-color: #c0dcf2;
+  grid-row: 1;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 14px;
+  color: #125799;
+  
+}
+.WhishList {
+  grid-row: 2;
+}
+.WeddingRegistry {
+  grid-row: 3;
+}
+.LinkedInP {
+  grid-row: 4;
+}
+
+.FBTH2{
+  margin: 10px;
+  color: #e47911;
+}
+
+.FBT{
+  display: grid;
+  grid-template-columns: 80px 50px 80px 50px 80px 200px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.FBT p{
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
+.FBT img{
+  width: 80px;
+  height: 80px;
+}
+.FBTButton{
+  border-radius: 5px;
+  background-color: #e9eac5;
+  color: #13146c;
+  font-size: 12px;
+}
+.checkboxes{
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+
+
 /* Responsive */
-@media (max-width: 768px) {
-    /* responsive de la navbar */
-    .navbar {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    .navbar-menu {
-        grid-template-columns: 1fr;
-        gap: 5px;
-    }
-    .navbar-menu li {
-        padding: 5px;
-    }
-    .navbar-menu a {
-        display: block;
-        padding: 10px 0;
-    }
-    /* responsive de la segunda barra */
-    .nav2{
-        grid-template-columns: 1fr;
-    }
-    .nav2menu{
-        grid-template-columns: 1fr;
-        gap: 5px;
-    }
-    .nav2menu a, .buscarTT{
-        display: block;
-        padding: 10px 0 0px 20px;
-    }
+@media (max-width: 600px) {
+  /* responsive de la navbar */
+  .navbar {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .navbar-menu {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .navbar-menu li {
+    padding: 5px;
+  }
+  .navbar-menu a {
+    display: block;
+    padding: 10px 0;
+  }
+  /* responsive de la segunda barra */
+  .nav2 {
+    grid-template-columns: 1fr;
+  }
+  .nav2menu {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .nav2menu a,
+  .buscarTT {
+    display: block;
+    padding: 10px 0 0px 20px;
+  }
+  /* responsive titulo */
+ 
+  .imagenes{
+    width: 0;
+    height: 0;
+  }
+  .Botones-azules{
+    margin-top: 100px;
+    height: 210px;
+  }
 
 }

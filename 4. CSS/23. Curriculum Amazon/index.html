@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon Curriculum</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="brand">
-          <a href=""
-            ><img src="./Imagenes/amazon_logo_icon_169612.png" alt=""
-          /></a>
-        </div>
-        <ul class="navbar-menu">
-          <li><a href="">Resumen de Oriol Rodríguez</a></li>
-          <li><a href="">Contactar</a></li>
-        </ul>
-      </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Curriculum</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="brand">
+        <a href=""><img src="./Imagenes/amazon_logo_icon_169612.png" alt="" /></a>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="">Resumen de Oriol Rodríguez</a></li>
+        <li><a href="">Contactar</a></li>
+      </ul>
+    </nav>
 
     <main>
       <!-- Linea e barra de busqueda -->
       <nav class="nav2">
         <ul class="nav2menu">
-          <li><a href="">Comprar por <br><span class="NegritaGrande">Departamentos<span class="flecha"> ▼</span></span></a></li>
-          <li class="buscarTT"> <span class="NegritaGrande">Buscar</span><input class="Busqueda" type="text"><button type="submit" class="botonGo">Go</button></li>
-          <li><a href="">Hola, <span class="textNaranja">Compañia</span> <br><span class="NegritaGrande">Tu cuenta<span class="flecha"> ▼</span></span></a></li>
+          <li><a href="">Comprar por <br><span class="NegritaGrande">Departamentos<span class="flecha">
+                  ▼</span></span></a></li>
+          <li class="buscarTT"> <span class="NegritaGrande">Buscar</span><input class="Busqueda" type="text"><button
+              type="submit" class="botonGo">Go</button></li>
+          <li><a href="">Hola, <span class="textNaranja">Compañia</span> <br><span class="NegritaGrande">Tu cuenta<span
+                  class="flecha"> ▼</span></span></a></li>
           <li><a href="">Hire <br><span class="NegritaGrande">Him</span></a></li>
           <li><a href="">Carro de<br><span class="NegritaGrande">Compras<span class="flecha"> ▼</span></span></a></li>
           <li><a href="">Lista de <br><span class="NegritaGrande">Deseados<span class="flecha"> ▼</span></span></a></li>
-          
+
         </ul>
-    </nav>
+      </nav>
+
+      <!-- Imagenes del perfi de compra -->
+      <div class="profile">
+
+        <div class="imagenes">
+          <img src="./Imagenes/perfil.jpg" alt="Soy yo literal">
+        </div>
+        <div class="details">
+          <h1>Oriol Rodríguez Martínez</h1>
+          <p class="byOriol">by <a class="urlPerf" href="">Oriol Rodríguez Martínez</a></p>
+          <p class="rating">★★★★☆ [▿] (<a class="reseado" href="">1 Reseña/s disponibles</a>) <span
+              class="byLinePipe">|</span> </p>
+          <hr>
+          <ul>
+            <li><span class="negrita-sub">Técnico</span> en Sistemas Microinformáticos y Redes</li>
+            <li><span class="negrita-sub">Técnico Superior</span> en Desarrollo de Aplicaciones Web</li>
+            <li><span class="negrita-sub">Bootcamp</span> Júnior Web Developer con Java.</li>
+            <li><span class="negrita-sub">Trilingüe</span> ES/CAT/ING.</li>
+          </ul>
+        </div>
+        <div class="Botones-azules">
+          <div class="ComprarPregunta">
+            <p>¿Quieres comprar uno?
+          </div>
+          </p>
+          <button class="WhishList">Add to Wish List</button>
+          <button class="WeddingRegistry">Add to Wedding Registry</button>
+          <button class="LinkedInP">My LinkedIn profile</button>
+        </div>
+      </div>
+      <hr>
+      <h2 class="FBTH2">Frequently Bought Together</h2>
+      <div class="FBT">
+        <img src="./Imagenes/perfil.jpg" alt="">
+        <p>+</p>
+        <img src="./Imagenes/_plane_tickets.jpeg" alt="">
+        <p>+</p>
+        <img src="./Imagenes/_mexico66.jpeg" alt="">
+        <button class="FBTButton">Añadir a la WhishList</button>
+
+        <div class="checkboxes">
+          <form method="post" action="/Tests/Post/">
+            <input checked="checked" type="checkbox" name="favorite_pet" value="Cats">Cats<br>
+            <input checked="checked" type="checkbox" name="favorite_pet" value="Dogs">Dogs<br>
+            <input checked="checked" type="checkbox" name="favorite_pet" value="Birds">Birds<br>
+          </form>
+
+        </div>
+      </div>
+
+
+
     </main>
     <footer></footer>
-  </body>
+</body>
+
 </html>
