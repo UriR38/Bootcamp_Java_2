@@ -39,11 +39,27 @@
       </nav>
 
       <!-- Imagenes del perfi de compra -->
+    
+      
       <div class="profile">
 
-        <div class="imagenes">
-          <img src="./Imagenes/perfil.jpg" alt="Soy yo literal">
-        </div>
+        <div class="fotos">
+          <div class="miniatura">
+              <img src="./Imagenes/Perfil/perfil.jpg" alt="Thumbnail 1" onclick="changeImage('./Imagenes/Perfil/perfil.jpg')">
+              <img src="./Imagenes/Perfil/perfil2.jpeg" alt="Thumbnail 2" onclick="changeImage('./Imagenes/Perfil/perfil2.jpeg')">
+              <img src="./Imagenes/Perfil/perfil3.jpeg" alt="Thumbnail 3" onclick="changeImage('./Imagenes/Perfil/perfil3.jpeg')">
+              <img src="./Imagenes/Perfil/perfil4.jpeg" alt="Thumbnail 4" onclick="changeImage('./Imagenes/Perfil/perfil4.jpeg')">
+          </div>
+          <div class="main-image">
+              <img id="mainImage" src="./Imagenes/Perfil/perfil.jpg" alt="Main Image">
+          </div>
+      </div>
+  
+      <script>
+          function changeImage(imageSrc) {
+              document.getElementById('mainImage').src = imageSrc;
+          }
+      </script>
         <div class="details">
           <h1>Oriol Rodríguez Martínez</h1>
           <p class="byOriol">by <a class="urlPerf" href="">Oriol Rodríguez Martínez</a></p>
@@ -59,33 +75,44 @@
         </div>
         <div class="Botones-azules">
           <div class="ComprarPregunta">
-            <p>¿Quieres comprar uno?
+              <p>¿Quieres comprar uno?</p>
           </div>
-          </p>
           <button class="WhishList">Add to Wish List</button>
           <button class="WeddingRegistry">Add to Wedding Registry</button>
           <button class="LinkedInP">My LinkedIn profile</button>
-        </div>
+      </div>
       </div>
       <hr>
-      <h2 class="FBTH2">Frequently Bought Together</h2>
+      <h2 class="FBTH2">Comprados juntos habitualmente</h2>
       <div class="FBT">
         <img src="./Imagenes/perfil.jpg" alt="">
         <p>+</p>
-        <img src="./Imagenes/_plane_tickets.jpeg" alt="">
+        <img src="./Imagenes/cafe_arabico.jpg" alt="">
         <p>+</p>
         <img src="./Imagenes/_mexico66.jpeg" alt="">
         <button class="FBTButton">Añadir a la WhishList</button>
-
-        <div class="checkboxes">
-          <form method="post" action="/Tests/Post/">
-            <input checked="checked" type="checkbox" name="favorite_pet" value="Cats">Cats<br>
-            <input checked="checked" type="checkbox" name="favorite_pet" value="Dogs">Dogs<br>
-            <input checked="checked" type="checkbox" name="favorite_pet" value="Birds">Birds<br>
-          </form>
-
-        </div>
       </div>
+
+      <fieldset class="multipleCheckbox">
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" checked>
+              <span class="negrita-sub">Este articulo: </span>Oriol Rodríguez, programador Junior.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" checked>
+            <a href="https://t.ly/out84" target="_blank">Café en grano </a>
+            <span>by Saula 26,52€</span>
+          </li>
+          <li>
+            <input type="checkbox" checked>
+            <a href="http://www.aeromexico.com/" target="_blank" rel="nofollow">Airline Tickets</a>
+          </li>
+        </ul>
+      </fieldset>
+      <hr>
 
 
 

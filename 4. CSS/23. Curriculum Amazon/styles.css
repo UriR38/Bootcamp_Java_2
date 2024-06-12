@@ -5,6 +5,9 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
+hr {
+  margin: 10px;
+}
 /* Navbar */
 .navbar {
   display: grid;
@@ -141,52 +144,57 @@ ul li {
   font-weight: bold;
 }
 
+/* Bloque quieres comprar */
 .Botones-azules {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: 1fr;
+  margin: 10px;
+  width: 250px;
+  overflow: hidden;
   border: 1px solid #6daee1;
   border-radius: 10px;
-  justify-content: stretch;
   background-color: #ebf3ff;
-  margin-top: 10px;
-  margin-right: 50px;
-  height: 190px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 40%;
 }
-.Botones-azules button{
+.ComprarPregunta {
+  background-color: #c0dcf2;
+  color: #13146c;
+  padding: 13px;
+  width: calc(100% + 20px);
+  margin: -10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.ComprarPregunta p {
+  margin: 0;
+}
+.Botones-azules button {
+  display: block;
+  width: calc(
+    100% - 20px
+  ); /* Reduce el ancho de los botones para agregar espacio en los lados */
+  margin: 5px auto;
+  border: 1px solid #6daee1;
   border-radius: 5px;
   background-color: #e9eac5;
   color: #13146c;
-  margin: 5%;
-  font-size: 12px;
-}
-
-.ComprarPregunta {
-  background-color: #c0dcf2;
-  grid-row: 1;
+  cursor: pointer;
   text-align: center;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  font-size: 14px;
-  color: #125799;
-  
+  box-sizing: border-box;
+  font-size: 11px;
 }
-.WhishList {
-  grid-row: 2;
-}
-.WeddingRegistry {
-  grid-row: 3;
-}
-.LinkedInP {
-  grid-row: 4;
+.Botones-azules button:hover {
+  background-color: hsl(62, 20%, 85%);
 }
 
-.FBTH2{
+.FBTH2 {
   margin: 10px;
   color: #e47911;
 }
 
-.FBT{
+.FBT {
   display: grid;
   grid-template-columns: 80px 50px 80px 50px 80px 200px;
   justify-items: center;
@@ -194,28 +202,53 @@ ul li {
   margin-top: 10px;
   margin-left: 40px;
 }
-.FBT p{
+.FBT p {
   font-size: 20px;
   font-weight: bold;
   color: gray;
 }
-.FBT img{
+.FBT img {
   width: 80px;
   height: 80px;
 }
-.FBTButton{
+.FBTButton {
   border-radius: 5px;
   background-color: #e9eac5;
   color: #13146c;
   font-size: 12px;
 }
-.checkboxes{
+.multipleCheckbox {
+  border: 0px;
   margin-top: 50px;
   width: 100%;
 }
-
-
-
+.multipleCheckbox li {
+  list-style-type: none;
+}
+.fotos {
+  display: flex;
+  margin: 10px;
+}
+.miniatura {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.miniatura img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.miniatura img:hover {
+  border: 2px solid #007bff;
+}
+.main-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 
 /* Responsive */
 @media (max-width: 600px) {
@@ -249,14 +282,13 @@ ul li {
     padding: 10px 0 0px 20px;
   }
   /* responsive titulo */
- 
-  .imagenes{
+
+  .imagenes {
     width: 0;
     height: 0;
   }
-  .Botones-azules{
+  .Botones-azules {
     margin-top: 100px;
     height: 210px;
   }
-
 }

@@ -1,6 +1,6 @@
 # Ejercicios de la bootcamp
 
-Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las practicas de la bootcamp.
+Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las prácticas de la bootcamp.
 
 ---
 
