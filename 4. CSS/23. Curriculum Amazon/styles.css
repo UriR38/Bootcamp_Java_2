@@ -8,6 +8,10 @@ li {
 hr {
   margin: 10px;
 }
+.chiquitoTexto {
+  font-size: 12px;
+}
+
 /* Navbar */
 .navbar {
   display: grid;
@@ -58,7 +62,7 @@ hr {
   font-size: 16px;
 }
 .Busqueda {
-  width: 24vw;
+  width: 20vw;
   height: 33px;
   margin-left: 10px;
   margin-right: 0px;
@@ -94,14 +98,6 @@ hr {
 /* Bloque informacion */
 .profile {
   display: flex;
-}
-.imagenes {
-  width: 25%;
-  padding: 10px;
-}
-.imagenes img {
-  width: 100%;
-  margin-bottom: 10px;
 }
 .details {
   width: 70%;
@@ -197,6 +193,7 @@ ul li {
 .FBT {
   display: grid;
   grid-template-columns: 80px 50px 80px 50px 80px 200px;
+  grid-template-rows: 2;
   justify-items: center;
   align-items: center;
   margin-top: 10px;
@@ -250,9 +247,85 @@ ul li {
   object-fit: cover;
 }
 
-/* Responsive */
+/* Bloque de la descripcion del producto */
+.DescipcionDelProducto {
+  margin-left: 50px;
+}
+.DescipcionDelProducto ul {
+  margin-left: 30px;
+}
+/* Barritas de estrellas de experiencia personal */
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.ratings {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.rating-bars .bar {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.bar-label {
+  width: 60px;
+  font-size: 14px;
+}
+
+.bar-fill {
+  height: 10px;
+  background-color: #ffc107;
+  margin: 0 10px;
+  flex: 1;
+  border-radius: 5px;
+}
+
+.bar-value {
+  width: 30px;
+  font-size: 14px;
+}
+
+.testimonials {
+  flex: 2;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.author {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+
+
+
+/* ---------- Responsive ----------*/
 @media (max-width: 600px) {
-  /* responsive de la navbar */
+  /* ---------- responsive de la navbar ---------- */
   .navbar {
     grid-template-columns: 1fr;
     text-align: center;
@@ -266,29 +339,71 @@ ul li {
   }
   .navbar-menu a {
     display: block;
-    padding: 10px 0;
+    padding: 0px;
   }
-  /* responsive de la segunda barra */
+  /* ---------- responsive de la segunda barra ---------- */
   .nav2 {
-    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    text-align: center;
   }
   .nav2menu {
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap: 0px;
   }
   .nav2menu a,
   .buscarTT {
     display: block;
     padding: 10px 0 0px 20px;
   }
-  /* responsive titulo */
-
-  .imagenes {
-    width: 0;
-    height: 0;
+  /* ---------- responsive titulo ---------- */
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    padding-bottom: 0px;
   }
+  .details {
+    padding-top: 0px;
+    grid-row: 2;
+  }
+
   .Botones-azules {
-    margin-top: 100px;
-    height: 210px;
+    grid-row: 3;
+    height: 130px;
+  }
+  /* ---------- responsive Comprados juntos habitualmente ---------- */
+  .FBTH2 {
+    text-align: center;
+    justify-items: center;
+  }
+  .FBT {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 50px 80px 50px 80px 80px;
+    justify-items: center;
+    align-items: center;
+  }
+  .foto1FBT {
+    grid-row: 1;
+  }
+  .mas1FBT {
+    grid-row: 2;
+  }
+  .foto2FBT {
+    grid-row: 3;
+  }
+  .mas2FBT {
+    grid-row: 4;
+  }
+  .foto3FBT {
+    grid-row: 5;
+  }
+  .FBTButton {
+    grid-row: 6;
+  }
+  .multipleCheckbox {
+    margin: 0px;
   }
 }

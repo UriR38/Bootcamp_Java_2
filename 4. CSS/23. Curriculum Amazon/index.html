@@ -13,111 +13,206 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="brand">
-        <a href=""><img src="./Imagenes/amazon_logo_icon_169612.png" alt="" /></a>
+        <a href=""><img src="./Imagenes/amazon_logo_icon_169612.png" alt="Amazon Logo" /></a>
       </div>
       <ul class="navbar-menu">
         <li><a href="">Resumen de Oriol Rodríguez</a></li>
-        <li><a href="">Contactar</a></li>
+        <li class="contactar"><a href="">Contactar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Línea y barra de búsqueda -->
+    <nav class="nav2">
+      <ul class="nav2menu">
+        <li><a href="">Comprar por <br><span class="NegritaGrande">Departamentos<span class="flecha">
+                ▼</span></span></a></li>
+        <li class="buscarTT"> <span class="NegritaGrande">Buscar</span><input class="Busqueda" type="text"><button
+            type="submit" class="botonGo">Go</button></li>
+        <li><a href="">Hola, <span class="textNaranja">Compañía</span> <br><span class="NegritaGrande">Tu cuenta<span
+                class="flecha"> ▼</span></span></a></li>
+        <li><a href="">Hire <br><span class="NegritaGrande">Him</span></a></li>
+        <li><a href="">Carro de<br><span class="NegritaGrande">Compras<span class="flecha"> ▼</span></span></a></li>
+        <li><a href="">Lista de <br><span class="NegritaGrande">Deseados<span class="flecha"> ▼</span></span></a></li>
       </ul>
     </nav>
 
-    <main>
-      <!-- Linea e barra de busqueda -->
-      <nav class="nav2">
-        <ul class="nav2menu">
-          <li><a href="">Comprar por <br><span class="NegritaGrande">Departamentos<span class="flecha">
-                  ▼</span></span></a></li>
-          <li class="buscarTT"> <span class="NegritaGrande">Buscar</span><input class="Busqueda" type="text"><button
-              type="submit" class="botonGo">Go</button></li>
-          <li><a href="">Hola, <span class="textNaranja">Compañia</span> <br><span class="NegritaGrande">Tu cuenta<span
-                  class="flecha"> ▼</span></span></a></li>
-          <li><a href="">Hire <br><span class="NegritaGrande">Him</span></a></li>
-          <li><a href="">Carro de<br><span class="NegritaGrande">Compras<span class="flecha"> ▼</span></span></a></li>
-          <li><a href="">Lista de <br><span class="NegritaGrande">Deseados<span class="flecha"> ▼</span></span></a></li>
-
-        </ul>
-      </nav>
-
-      <!-- Imagenes del perfi de compra -->
-    
-      
-      <div class="profile">
-
-        <div class="fotos">
-          <div class="miniatura">
-              <img src="./Imagenes/Perfil/perfil.jpg" alt="Thumbnail 1" onclick="changeImage('./Imagenes/Perfil/perfil.jpg')">
-              <img src="./Imagenes/Perfil/perfil2.jpeg" alt="Thumbnail 2" onclick="changeImage('./Imagenes/Perfil/perfil2.jpeg')">
-              <img src="./Imagenes/Perfil/perfil3.jpeg" alt="Thumbnail 3" onclick="changeImage('./Imagenes/Perfil/perfil3.jpeg')">
-              <img src="./Imagenes/Perfil/perfil4.jpeg" alt="Thumbnail 4" onclick="changeImage('./Imagenes/Perfil/perfil4.jpeg')">
-          </div>
-          <div class="main-image">
-              <img id="mainImage" src="./Imagenes/Perfil/perfil.jpg" alt="Main Image">
-          </div>
-      </div>
-  
-      <script>
-          function changeImage(imageSrc) {
-              document.getElementById('mainImage').src = imageSrc;
-          }
-      </script>
-        <div class="details">
-          <h1>Oriol Rodríguez Martínez</h1>
-          <p class="byOriol">by <a class="urlPerf" href="">Oriol Rodríguez Martínez</a></p>
-          <p class="rating">★★★★☆ [▿] (<a class="reseado" href="">1 Reseña/s disponibles</a>) <span
-              class="byLinePipe">|</span> </p>
-          <hr>
-          <ul>
-            <li><span class="negrita-sub">Técnico</span> en Sistemas Microinformáticos y Redes</li>
-            <li><span class="negrita-sub">Técnico Superior</span> en Desarrollo de Aplicaciones Web</li>
-            <li><span class="negrita-sub">Bootcamp</span> Júnior Web Developer con Java.</li>
-            <li><span class="negrita-sub">Trilingüe</span> ES/CAT/ING.</li>
-          </ul>
+    <!-- Imágenes "carrusel"-->
+    <div class="profile">
+      <div class="fotos">
+        <div class="miniatura">
+          <img src="./Imagenes/Perfil/perfil.jpg" alt="Thumbnail 1"
+            onclick="changeImage('./Imagenes/Perfil/perfil.jpg')">
+          <img src="./Imagenes/Perfil/perfil2.jpeg" alt="Thumbnail 2"
+            onclick="changeImage('./Imagenes/Perfil/perfil2.jpeg')">
+          <img src="./Imagenes/Perfil/perfil3.jpeg" alt="Thumbnail 3"
+            onclick="changeImage('./Imagenes/Perfil/perfil3.jpeg')">
+          <img src="./Imagenes/Perfil/perfil4.jpeg" alt="Thumbnail 4"
+            onclick="changeImage('./Imagenes/Perfil/perfil4.jpeg')">
         </div>
-        <div class="Botones-azules">
-          <div class="ComprarPregunta">
-              <p>¿Quieres comprar uno?</p>
-          </div>
-          <button class="WhishList">Add to Wish List</button>
-          <button class="WeddingRegistry">Add to Wedding Registry</button>
-          <button class="LinkedInP">My LinkedIn profile</button>
-      </div>
-      </div>
-      <hr>
-      <h2 class="FBTH2">Comprados juntos habitualmente</h2>
-      <div class="FBT">
-        <img src="./Imagenes/perfil.jpg" alt="">
-        <p>+</p>
-        <img src="./Imagenes/cafe_arabico.jpg" alt="">
-        <p>+</p>
-        <img src="./Imagenes/_mexico66.jpeg" alt="">
-        <button class="FBTButton">Añadir a la WhishList</button>
+        <div class="main-image">
+          <img id="mainImage" src="./Imagenes/Perfil/perfil.jpg" alt="Main Image">
+        </div>
       </div>
 
-      <fieldset class="multipleCheckbox">
+      <script>
+        function changeImage(imageSrc) {
+          document.getElementById('mainImage').src = imageSrc;
+        }
+      </script>
+      <div class="details">
+        <h1>Oriol Rodríguez Martínez</h1>
+        <p class="byOriol">by <a class="urlPerf" href="">Oriol Rodríguez Martínez</a></p>
+        <p class="rating">★★★★☆ [▿] (<a class="reseado" href="">1 Reseña/s disponibles</a>) <span
+            class="byLinePipe">|</span> </p>
+        <hr>
         <ul>
-          <li>
-            <label>
-              <input type="checkbox" checked>
-              <span class="negrita-sub">Este articulo: </span>Oriol Rodríguez, programador Junior.
-            </label>
-          </li>
-          <li>
-            <input type="checkbox" checked>
-            <a href="https://t.ly/out84" target="_blank">Café en grano </a>
-            <span>by Saula 26,52€</span>
-          </li>
-          <li>
-            <input type="checkbox" checked>
-            <a href="http://www.aeromexico.com/" target="_blank" rel="nofollow">Airline Tickets</a>
-          </li>
+          <li><span class="negrita-sub">Técnico</span> en Sistemas Microinformáticos y Redes</li>
+          <li><span class="negrita-sub">Técnico Superior</span> en Desarrollo de Aplicaciones Web</li>
+          <li><span class="negrita-sub">Bootcamp</span> Júnior Web Developer con Java.</li>
+          <li><span class="negrita-sub">Trilingüe</span> ES/CAT/ING.</li>
         </ul>
-      </fieldset>
-      <hr>
+      </div>
+      <div class="Botones-azules">
+        <div class="ComprarPregunta">
+          <p>¿Quieres comprar uno?</p>
+        </div>
+        <button class="WhishList">Add to Wish List</button>
+        <button class="WeddingRegistry">Add to Wedding Registry</button>
+        <button class="LinkedInP">My LinkedIn profile</button>
+      </div>
+    </div>
+    <hr>
+    <h2 class="FBTH2">Comprados juntos habitualmente</h2>
+    <div class="FBT">
+      <img class="foto1FBT" src="./Imagenes/Perfil/perfil.jpg" alt="">
+      <p class="mas1FBT">+</p>
+      <img class="foto2FBT" src="./Imagenes/cafe_arabico.jpg" alt="">
+      <p class="mas2FBT">+</p>
+      <img class="foto3FBT" src="./Imagenes/sonyH.jpg" alt="">
+      <button class="FBTButton">Añadir a la WhishList</button>
+    </div>
+
+    <fieldset class="multipleCheckbox">
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" checked>
+            <span class="negrita-sub">Este artículo: </span><span class="chiquitoTexto">Oriol Rodríguez, programador
+              Junior.</span>
+          </label>
+        </li>
+        <li>
+          <input type="checkbox" checked>
+          <a href="https://t.ly/out84" target="_blank">Café en grano </a>
+          <span><span class="chiquitoTexto">by Saula </span></span><span class="chiquitoTexto textNaranja">26,52€</span>
+        </li>
+        <li>
+          <input type="checkbox" checked>
+          <a href="https://t.ly/garfW" target="_blank" rel="nofollow">WH-1000XM5</a>
+          <span class="chiquitoTexto">by Sony </span></span><span class="chiquitoTexto textNaranja">319,00€</span>
+        </li>
+      </ul>
+    </fieldset>
+    <hr>
+    <h2 class="FBTH2">Detalles del producto</h2>
+    <div class="DescipcionDelProducto">
+      <p><span class="negrita-sub">Dimensiones:</span> Altura: 181 cm.</p>
+      <p><span class="negrita-sub">Envío:</span> Se puede enviar a cualquier parte del mundo en 24h.</p>
+      <p><span class="negrita-sub">Idiomas:</span> Español, Catalán, Inglés.</p>
+      <p><span class="negrita-sub">Consumo:</span> Una media de 4-5 cafés diarios.</p>
+      <p><span class="negrita-sub">Licencias:</span> B2, A2.</p>
+      <p><span class="negrita-sub">Estudios:</span></p>
+      <ul>
+        <li><span class="negrita-sub">Bootcamp</span> en <a href="">Fundació Esplai ICT</a>, <br> Programación Java y
+          Angular.</li>
+        <li><span class="negrita-sub">CFGS</span> en <a href=""> Institut Francesc Vidal i Barraquer</a>, <br>
+          Desarrollo de aplicaciones web.</li>
+        <li><span class="negrita-sub">CFGM</span> en <a href=""> Institut Campclar</a>, <br> Sistemas microinformáticos
+          y redes.</li>
+        <li><span class="negrita-sub">ESO</span> en <a href=""> Institut Públic Ramon Barbat I Miracle</a>.</li>
+      </ul>
+      <p><span class="negrita-sub">Skills:</span></p>
+      <ul>
+        <li><span class="negrita-sub">Desarrollo web:</span> HTML5, CSS3, JavaScript, PHP, SQL.</li>
+        <li><span class="negrita-sub">Habilidades sociales:</span> Comunicación efectiva, Trabajo en equipo, Resolución
+          de conflictos, Empatía, Manejo del tiempo, Liderazgo, Adaptabilidad, Actitud positiva, Networking, Cortesía y
+          profesionalismo</li>
+      </ul>
+      <p>¿Nos hemos dejado información importante? <a href="">Visita LinkedIn para más información.</a></p>
+    </div>
+    <hr>
+    <h2 class="FBTH2">Descripción del producto</h2>
+    <div class="DescipcionDelProducto">
+      <p>Formado en la programación enfocada a web y en sistemas microinformáticos; siempre he tenido mucha soltura con
+        la informática, y las tecnologías.
+      </p>
+      <p>Soy una persona que se adapta rápido, responsable y sin miedo a asumir responsabilidades. Aprendiendo
+        rápidamente con nuevos trabajos.</p>
+    </div>
+    <hr>
+    <h2 class="FBTH2">Experiencia Profesional</h2>
+    <div class="testimonials-container">
+      <div class="ratings">
+        <h2>5 out of 5 stars</h2>
+        <div class="stars">
+          <span>★★★★★</span>
+          <span>(233)</span>
+        </div>
+        <div class="rating-bars">
+          <div class="bar">
+            <span class="bar-label">5 star</span>
+            <div class="bar-fill" style="width: 52%; background-color: #f4f4cf; overflow: hidden;">
+              <div class="" style="background-color:#ffcc66; height:19px; width:50%; border: 0;"></div></div>
+            <span class="bar-value">121</span>
+          </div>
 
 
-
-    </main>
-    <footer></footer>
+          <div class="bar">
+            <span class="bar-label">4 star</span>
+            <div class="bar-fill" style="width: 21%;"></div>
+            <span class="bar-value">50</span>
+          </div>
+          <div class="bar">
+            <span class="bar-label">3 star</span>
+            <div class="bar-fill" style="width: 4%;"></div>
+            <span class="bar-value">10</span>
+          </div>
+          <div class="bar">
+            <span class="bar-label">2 star</span>
+            <div class="bar-fill" style="width: 6%;"></div>
+            <span class="bar-value">15</span>
+          </div>
+          <div class="bar">
+            <span class="bar-label">1 star</span>
+            <div class="bar-fill" style="width: 16%;"></div>
+            <span class="bar-value">37</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>“Mi nieto es una persona excepcional, siempre ha demostrado una gran dedicación y compromiso en todo lo que
+            hace. Tiene un talento innato para resolver problemas y trabajar en equipo...”</p>
+          <span class="author">La Avia, CEO of SuCasa</span>
+        </div>
+        <div class="testimonial">
+          <p>“His combination of industry knowledge, product management skills and sheer hustling quickly made his
+            startup, AppartInfo, one of the most promising of our class ...”</p>
+          <span class="author">M Pannier, Product Manager at Gusto</span>
+        </div>
+        <div class="testimonial">
+          <p>“technical knowledge and passion ...”</p>
+          <span class="author">D Gormley, Client Executive at The Abreon Group</span>
+        </div>
+      </div>
+    </div>
+    <div class="histoFullBar fl tiny mr1" style="width:96px; background-color:#f4f4cf; overflow: hidden;">
+      <div class="histoRatingBar" style="background-color:#ffcc66; height:19px; width:50px; border: 0;"></div>
+    </div>
+  </main>
+  <footer></footer>
 </body>
 
 </html>
