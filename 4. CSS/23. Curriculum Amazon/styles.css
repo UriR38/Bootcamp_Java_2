@@ -283,7 +283,6 @@ ul li {
 }
 
 .bar-label {
-  width: 60px;
   font-size: 14px;
 }
 
@@ -293,10 +292,11 @@ ul li {
   margin: 0 10px;
   flex: 1;
   border-radius: 5px;
+
 }
 
 .bar-value {
-  width: 30px;
+  width: 80px;
   font-size: 14px;
 }
 
@@ -320,7 +320,14 @@ ul li {
   margin-top: 5px;
 }
 
-
+.textoDorado{
+  color: #ff9900;
+}
+.h2Rating{
+  margin-top: 0px;
+  font-size: 12px;
+  color: grey;
+}
 
 
 /* ---------- Responsive ----------*/
