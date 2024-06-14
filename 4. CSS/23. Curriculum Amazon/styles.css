@@ -100,7 +100,7 @@ hr {
   display: flex;
 }
 .details {
-  width: 70%;
+  width: 60%;
   padding: 10px;
 }
 
@@ -242,8 +242,8 @@ ul li {
   border: 2px solid #007bff;
 }
 .main-image img {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -479,7 +479,8 @@ ul li {
   .multipleCheckbox {
     margin: 0px;
   }
-  .cosasDLF {
+  .DescipcionDelProducto2{
+    margin: 15px;
   }
   .contactMeFooter {
     display: flex;
