@@ -216,7 +216,7 @@ ul li {
 }
 .multipleCheckbox {
   border: 0px;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
 }
 .multipleCheckbox li {
@@ -260,7 +260,6 @@ ul li {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 800px;
-  margin: 0 auto;
   background-color: #fff;
   padding: 20px;
 }
@@ -292,7 +291,6 @@ ul li {
   margin: 0 10px;
   flex: 1;
   border-radius: 5px;
-
 }
 
 .bar-value {
@@ -320,15 +318,83 @@ ul li {
   margin-top: 5px;
 }
 
-.textoDorado{
+.textoDorado {
   color: #ff9900;
 }
-.h2Rating{
+.h2Rating {
   margin-top: 0px;
   font-size: 12px;
   color: grey;
 }
-
+.LasReviews {
+  margin-left: 30px;
+}
+.ReviewsRelevantes {
+  font-size: 22px;
+  font-weight: bold;
+}
+.pegaditoMasRico {
+  margin: 1px;
+  padding: 0px;
+}
+.greyColor {
+  font-size: 14px;
+  color: #555;
+}
+.ReviewButtons input {
+  border-radius: 5px;
+  border: solid 2px grey;
+  width: 40px;
+  margin-bottom: 30px;
+}
+.BottonCustomReview {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff9900;
+}
+.BottonCustomReview:hover {
+  color: #ba7001;
+}
+.BottonCustomReview2 {
+  margin-top: 5px;
+  font-size: 16px;
+  border: solid 2px grey;
+  border-radius: 5px;
+}
+.fotoFooter {
+  margin: 150px 150px 25px 150px;
+  display: flex;
+  justify-content: center;
+}
+.cosasDLF {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}
+.PorqHagoEsto {
+  font-size: 14px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.footerCreditos {
+  margin: 20px;
+  margin-top: 125px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.contactMeFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.contactMeFooter a {
+  text-decoration: none;
+  font-size: 14px;
+}
 
 /* ---------- Responsive ----------*/
 @media (max-width: 600px) {
@@ -412,5 +478,12 @@ ul li {
   }
   .multipleCheckbox {
     margin: 0px;
+  }
+  .cosasDLF {
+  }
+  .contactMeFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
