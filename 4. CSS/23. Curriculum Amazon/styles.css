@@ -4,6 +4,7 @@ li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 hr {
   margin: 10px;
@@ -37,7 +38,7 @@ hr {
 .navbar-menu a {
   text-decoration: none;
 }
-/* Navbar 2 - La barra de abajo que en realidad no es nav pero weno xd */
+/* Navbar 2 - La barra de abajo que en realidad no es nav pero bueno */
 .nav2 {
   display: grid;
   grid-template-columns: repeat(1, auto);
@@ -95,7 +96,7 @@ hr {
   );
 }
 
-/* Bloque informacion */
+/* Bloque información */
 .profile {
   display: flex;
 }
@@ -242,19 +243,19 @@ ul li {
   border: 2px solid #007bff;
 }
 .main-image img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
-/* Bloque de la descripcion del producto */
+/* Bloque de la descripción del producto */
 .DescipcionDelProducto {
   margin-left: 50px;
 }
 .DescipcionDelProducto ul {
   margin-left: 30px;
 }
-/* Barritas de estrellas de experiencia personal */
+/* Barritas de estrellas de experiencia profesional */
 .testimonials-container {
   display: flex;
   flex-wrap: wrap;
@@ -343,7 +344,7 @@ ul li {
 }
 .ReviewButtons input {
   border-radius: 5px;
-  border: solid 2px grey;
+  border: solid 1px grey;
   width: 40px;
   margin-bottom: 30px;
 }
@@ -359,7 +360,7 @@ ul li {
 .BottonCustomReview2 {
   margin-top: 5px;
   font-size: 16px;
-  border: solid 2px grey;
+  border: solid 1px grey;
   border-radius: 5px;
 }
 .fotoFooter {
@@ -429,7 +430,7 @@ ul li {
     display: block;
     padding: 10px 0 0px 20px;
   }
-  /* ---------- responsive titulo ---------- */
+  /* ---------- responsive título ---------- */
   .profile {
     display: grid;
     grid-template-columns: 1fr;
@@ -479,7 +480,7 @@ ul li {
   .multipleCheckbox {
     margin: 0px;
   }
-  .DescipcionDelProducto2{
+  .DescipcionDelProducto2 {
     margin: 15px;
   }
   .contactMeFooter {
