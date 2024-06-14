@@ -73,5 +73,5 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las práct
 > - [x] [19. - Ejercicio: Colores](4.%20CSS/19.%20Ejerciocio%20de%20colores/)  
 > - [x] [20. - Ejercicio: Media Query's](4.%20CSS/20.%20Ejercicio%20media%20querys/)  
 > - [x] [22. - Ejercicio: Grid](4.%20CSS/22.%20Ejercicios%20de%20Grid/)  
-> - [ ] [23. - Ejercicio: Curriculum Amazon](4.%20CSS/23.%20Curriculum%20Amazon/)  
-> 
+> - [x] [23. - Ejercicio: Curriculum Amazon](4.%20CSS/23.%20Curriculum%20Amazon/)  
+> - [ ] [24. - Ejercicio: Lab CSS Responsive Cloning]()  
