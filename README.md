@@ -74,4 +74,12 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las práct
 > - [x] [20. - Ejercicio: Media Query's](4.%20CSS/20.%20Ejercicio%20media%20querys/)  
 > - [x] [22. - Ejercicio: Grid](4.%20CSS/22.%20Ejercicios%20de%20Grid/)  
 > - [x] [23. - Ejercicio: Curriculum Amazon](4.%20CSS/23.%20Curriculum%20Amazon/)  
-> - [ ] [24. - Ejercicio: Lab CSS Responsive Cloning]()  
+> - [x] [24. - Ejercicio: Lab CSS Responsive Cloning]()  
+>
+> ## 6. JS
+
+#### Carpeta con todos los archivo JS [📁](./6.%20JS/)
+
+> **Ejercicios de la teoria**
+> [x] [01. - Ejercicio: Tipos de datos](./6.%20JS/01%20-%20Tipos%20de%20datos/)  
+> [x] [02. - Ejercicio: Tipos de datos 2](./6.%20JS/02%20-%20Tipos%20de%20datos/)
