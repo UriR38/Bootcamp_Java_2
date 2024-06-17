@@ -76,8 +76,8 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las práct
 > - [x] [23. - Ejercicio: Curriculum Amazon](4.%20CSS/23.%20Curriculum%20Amazon/)  
 > - [x] [24. - Ejercicio: Lab CSS Responsive Cloning]()  
 >
-> ## 6. JS
 
+## 6. JS
 #### Carpeta con todos los archivo JS [📁](./6.%20JS/)
 
 > **Ejercicios de la teoria**
