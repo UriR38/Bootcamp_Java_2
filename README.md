@@ -81,5 +81,5 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las práct
 #### Carpeta con todos los archivo JS [📁](./6.%20JS/)
 
 > **Ejercicios de la teoria**
-> [x] [01. - Ejercicio: Tipos de datos](./6.%20JS/01%20-%20Tipos%20de%20datos/)  
-> [x] [02. - Ejercicio: Tipos de datos 2](./6.%20JS/02%20-%20Tipos%20de%20datos/)
+> - [x] [01. - Ejercicio: Tipos de datos](./6.%20JS/01%20-%20Tipos%20de%20datos/)  
+> - [x] [02. - Ejercicio: Tipos de datos 2](./6.%20JS/02%20-%20Tipos%20de%20datos/)
