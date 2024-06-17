@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Lab | Responsive Cloning | Product Hunt</title>
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <section class="search-bar">
+        <img
+          id="logo"
+          src="./images/logo.png"
+          alt="Product Hunt Logo"
+          class="float-left"
+        />
+        <input
+          type="text"
+          placeholder="Discover your next favorite thing..."
+          class="search-input"
+        />
+        <a href="#">···</a>
+        <a href="#">Login</a>
+      </section>
+
+      <nav>
+        <ul>
+          <li class="active">Home</li>
+          <li>Tech</li>
+          <li>Games</li>
+          <li>Podcasts</li>
+          <li>Books</li>
+          <li>Bots</li>
+          <li>Developer Tools</li>
+          <li>iMessage Apps</li>
+          <li>iPhone</li>
+          <li>Photography Tools</li>
+        </ul>
+        <div class="nav-arrows float-right">
+          <img src="./images/arrow-prev.png" alt="Previous" />
+          <img src="./images/arrow-next.png" alt="Next" />
+        </div>
+      </nav>
+
+      <div class="clearfix"></div>
+    </header>
+
+    <section class="content">
+      <article class="box subscribe-section text-center">
+        <div class="close-button">
+          <img src="./images/close.png" alt="Close" />
+        </div>
+        👋 <strong>Welcome to Product Hunt</strong> Get the best new products in
+        your inbox, daily.
+        <form>
+          <input
+            type="email"
+            placeholder="Your email"
+            class="subscribe-input"
+          />
+          <button class="subscribe-button">Subscribe</button>
+        </form>
+      </article>
+
+      <section class="main-section">
+        <article id="popular-section" class="box app-list">
+          <header class="app-list-header">
+            <span class="title">Popular this week</span>
+            <div class="close-button">
+              <img src="./images/close.png" alt="Close" />
+            </div>
+          </header>
+
+          <div class="app-item">
+            <img
+              src="./images/popular-this-week/app-1.png"
+              alt="Duolingo Bots"
+              class="float-left app-image"
+            />
+            <div class="float-left app-details">
+              <span class="title">Duolingo Bots</span>
+              <p>AI-powered characters to teach language conversation</p>
+              <div class="app-actions">
+                <span class="votes">210</span>
+                <span class="comments">5</span>
+                <span class="associations">+ 2</span>
+                <span class="category">iPhone</span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="app-item">
+            <img
+              src="./images/popular-this-week/app-2.png"
+              alt="Tribe 2.0"
+              class="float-left app-image"
+            />
+            <div class="float-left app-details">
+              <span class="title">Tribe 2.0</span>
+              <p>Introducing Augmented Messaging</p>
+              <div class="app-actions">
+                <span class="votes">1465</span>
+                <span class="comments">188</span>
+                <span class="associations">+ 4</span>
+                <span class="category">Android</span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="app-item">
+            <img
+              src="./images/popular-this-week/app-3.png"
+              alt="Workplace by Facebook"
+              class="float-left app-image"
+            />
+            <div class="float-left app-details">
+              <span class="title">Workplace by Facebook</span>
+              <p>Connect everyone in your company and turn ideas into action</p>
+              <div class="app-actions">
+                <span class="votes">1003</span>
+                <span class="comments">80</span>
+                <span class="associations">+ 2</span>
+                <span class="category">Android</span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="show-more">
+            <img
+              src="./images/arrow-down.png"
+              alt="Show More"
+              class="arrow"
+            />Show More
+          </div>
+        </article>
+
+        <article id="today-section" class="box app-list">
+          <header class="app-list-header">
+            <span class="title">Today</span>
+            <div class="close-button">
+              <img src="./images/close.png" alt="Close" />
+            </div>
+          </header>
+
+          <div class="app-item">
+            <img
+              src="./images/today/app-1.png"
+              alt="Sprayscape"
+              class="float-left app-image"
+            />
+            <div class="float-left app-details">
+              <span class="title">Sprayscape</span>
+              <p>A perfectly VR-ish camera experiment, by Google</p>
+              <div class="app-actions">
+                <span class="votes">82</span>
+                <span class="comments">8</span>
+                <span class="associations">+ 3</span>
+                <span class="category">Android</span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="app-item">
+            <img
+              src="./images/today/app-2.png"
+              alt="Ask Gary Vee"
+              class="float-left app-image"
+            />
+            <div class="float-left app-details">
+              <span class="title">Ask Gary Vee</span>
+              <p>The unofficial Gary Vee persona chatbot on Messenger!</p>
+              <div class="app-actions">
+                <span class="votes">21</span>
+                <span class="comments">9</span>
+                <span class="associations">+ 1</span>
+                <span class="category">Get Shit Done</span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="app-item">
+            <img
+              src="./images/today/app-3.png"
+              alt="The Electron Wheel"
+              class="float-left app-image"
+            />
+            <div class="float-left app-details">
+              <span class="title">The Electron Wheel</span>
+              <p>Turn your standard bicycle into an electric bike.</p>
+              <div class="app-actions">
+                <span class="votes">23</span>
+                <span class="comments">3</span>
+                <span class="associations">+ 2</span>
+                <span class="category">Android</span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="show-more">
+            <img
+              src="./images/arrow-down.png"
+              alt="Show More"
+              class="arrow"
+            />Show More
+          </div>
+        </article>
+      </section>
+
+      <section class="aside-section">
+        <article id="kittybot-section" class="box">
+          <header class="aside-header">
+            <span class="title">Kittybot for Slack.</span>
+            <div class="close-button">
+              <img src="./images/close.png" alt="Close" />
+            </div>
+          </header>
+
+          <div class="aside-content recommendation">
+            <p>A friendly feline that sends you cool new things.</p>
+            <button class="add-kittybot-button"># Add Kittybot to Slack</button>
+          </div>
+        </article>
+
+        <article id="upcoming-chats-section" class="box">
+          <header class="aside-header">
+            <div class="title small-title">Upcoming Live Chats</div>
+          </header>
+
+          <div class="chat-item">
+            <div class="float-left speaker-photo"></div>
+            <div class="float-left speaker-details">
+              <div class="name">Adam Besvinick</div>
+              <div class="role">VC at Deep Fork Capital</div>
+              <button class="remind-button">Remind Me</button>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="chat-item">
+            <div class="float-left speaker-photo"></div>
+            <div class="float-left speaker-details">
+              <div class="name">Susan David</div>
+              <div class="role">Author of Emotional Agility</div>
+              <button class="remind-button">Remind Me</button>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="chat-item">
+            <div class="float-left speaker-photo"></div>
+            <div class="float-left speaker-details">
+              <div class="name">Avid Larizadeh Duggan</div>
+              <div class="role">General Partner at GV</div>
+              <button class="remind-button">Remind Me</button>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="chat-item">
+            <div class="float-left speaker-photo"></div>
+            <div class="float-left speaker-details">
+              <div class="name">Katerina Markov Schneider</div>
+              <div class="role">Founder and CEO of Ritual</div>
+              <button class="remind-button">Remind Me</button>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="chat-item">
+            <div class="float-left speaker-photo"></div>
+            <div class="float-left speaker-details">
+              <div class="name">Jocelyn K. Glei</div>
+              <div class="role">
+                Master of Productivity founder and author...
+              </div>
+              <button class="remind-button">Remind Me</button>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </article>
+      </section>
+    </section>
+  </body>
+</html>
