@@ -1,3 +1,3 @@
-function alerta() {
-    alert("Oriol Rodríguez Martínez :D");
-}
+$().ready( () => {
+    alert("hola");
+});
