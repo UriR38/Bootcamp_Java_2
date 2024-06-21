@@ -19,7 +19,6 @@ console.log(dinner3);
 //Expected output ['🍔', '🌭', '🍟', '🍟', '🧋', '🧋']
 
 // 4. 🗣️ (Ruido de pasos… )🚶🏻‍♂️EL JEFE SE ACERCA! 🗣️
-
 // Primer metodo: reverse
 const dinner4 = ["🍔", "🌭", "🍟", "🍟", "🍕", "🧋", "🧋"];
 dinner4.reverse();
@@ -48,13 +47,66 @@ console.log(dinner45);
 // Cuarto metodo: forEach sin array auxiliar
 const dinner46 = ["🍔", "🌭", "🍟", "🍟", "🍕", "🧋", "🧋"];
 dinner46.forEach((element) => {
-let index;
+  let index;
   let reOrdenar = dinner46.length - 1 - index;
   if (index < reOrdenar) {
-    
-    [dinner46[index], dinner46[reOrdenar]] = [dinner46[reOrdenar], dinner46[index]];
+    [dinner46[index], dinner46[reOrdenar]] = [
+      dinner46[reOrdenar],
+      dinner46[index],
+    ];
   }
-})
+});
 dinner46.unshift("🍸");
 console.log(dinner46);
 
+// Quinto 🗣️ UNA NUEVA COMANDA: 🗣️
+const ticket01 = ["🍺", "🍺", "🥜"];
+//👨🏻‍🦰 Output: ['🍺', '🍺', '🥜']
+const ticket02 = ["🍺", "🥪", "🥙"];
+//👱🏽‍♂️ Output: ['🍺', '🥪', '🥙']
+
+//Metodo concat()
+const combinedTicket1 = ticket01.concat(ticket02);
+console.log(combinedTicket1);
+
+// Metodo con operador ...
+const combinedTicket2 = [...ticket01, ...ticket02];
+console.log(combinedTicket2);
+
+//Metodo push
+ticket01.push(...ticket02);
+console.log(ticket01);
+
+//Metodo con bucle forEach
+const combinedTicket3 = [];
+ticket01.forEach((element) => combinedTicket3.push(element));
+ticket02.forEach((element) => combinedTicket3.push(element));
+console.log(combinedTicket3);
+
+//Metodo con for
+const combinedTicket4 = [];
+for (let i = 0; i < ticket01.length; i++) {
+  combinedTicket4.push(ticket01[i]);
+}
+for (let i = 0; i < ticket02.length; i++) {
+  combinedTicket4.push(ticket02[i]);
+}
+console.log("4:", combinedTicket4);
+
+const combinedTicke5 = ["🍺", "🍺", "🍺", "🥜", "🍺", "🥪", "🥙"];
+for (let i = 0; i < combinedTicke5.length; i++) {
+  if (combinedTicke5[i] === "🍺" && combinedTicke5[++i] === "🍺") {
+    combinedTicke5.splice(i, i);
+  }
+  if (combinedTicke5[i] === "🥙") {
+    combinedTicke5.splice(i, i);
+  }
+}
+console.log(combinedTicke5);
+
+const combinedTicket6 = ["🍺", "🍺", "🍺", "🥜", "🍺", "🥪", "🥙"];
+combinedTicket6.pop();
+combinedTicket6.shift(); 
+console.log(combinedTicket6);
+
+//Expected output ['🍺', '🍺', '🥜', '🍺', '🥪']
