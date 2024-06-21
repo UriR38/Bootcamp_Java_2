@@ -1,0 +1,26 @@
+.container {
+  margin: 50px;
+  padding: 50px;
+}
+.section {
+  margin-bottom: 20px;
+}
+.section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.button-container button,
+.button-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-container select {
+  width: 60px;
+}
