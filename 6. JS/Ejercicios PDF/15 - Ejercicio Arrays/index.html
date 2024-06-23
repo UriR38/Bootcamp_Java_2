@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Item Control</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js"></script>
 </head>
 
 <body>
@@ -12,16 +13,16 @@
         <div class="section">
             <label for="add-item">Add Item</label>
             <div class="button-container" id="add-item">
-                <button>push</button>
-                <button>unshift</button>
+                <button onclick="addEmoji()">push</button>
+                <button onclick="addPrincipoEmoji()">unshift</button>
                 <div>
-                    <button>insert at</button>
-                    <select>
+                    <button onclick="addEmojioPosicionX()">insert at</button>
+                    <select id="posicion">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
-                        <option value="3">4</option>
-                        <option value="3">5</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
                     </select>
                 </div>
             </div>
@@ -29,23 +30,21 @@
         <div class="section">
             <label for="remove-item">Remove Item</label>
             <div class="button-container" id="remove-item">
-                <button>pop</button>
-                <button>shift</button>
+                <button onclick="brrEmoji()">pop</button>
+                <button onclick="brrPricipioEmoji()">shift</button>
                 <div>
-                    <button>remove at</button>
-                    <select>
+                    <button onclick="brrEmojioPosicionX()">remove at</button>
+                    <select id="posicionBorrar">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
-                        <option value="3">4</option>
-                        <option value="3">5</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
                     </select>
                 </div>
             </div>
         </div>
-        <div>
-            <p></p>
-        </div>
+        <div id="listaDeEmojis"></div>
     </div>
 </body>
 

@@ -24,3 +24,9 @@
 .button-container select {
   width: 60px;
 }
+#emojis{
+  font-size: 25px;
+}
+button:hover{
+  background-color: #c5c5c9;
+}
