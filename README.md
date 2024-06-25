@@ -101,7 +101,7 @@ Espacio donde voy a ir subiendo y actualizando conforme vaya haciendo las práct
 > - [x] [17 - Ejercicio: Piedra Papel Tijeras](./6.%20JS/Ejercicios%20PDF/17%20-%20Piedra%20Papel%20Tijeras/)
 > - [x] [18 - Ejercicio: Cartas](./6.%20JS/Ejercicios%20PDF/18%20-%20Las%20Cartas/)
 > - [x] [19 - Ejercicio: Bombilla](./6.%20JS/Ejercicios%20PDF/19%20-%20Bombilla/)
-> - [ ] [20 - Ejercicio: Tamagochi]()
+> - [x] [20 - Ejercicio: Tamagochi]()
 > - [ ] [21 - Ejercicio: Calculadora]()
 > - [ ] [22 - Ejercicio: Chuck Norris]()
 > - [ ] [23 - Ejercicio: Intrumentos]()
