@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       decreaseProgress("foodProgress");
       decreaseProgress("funProgress");
       decreaseProgress("sleepProgress");
-    }, 6000); // Actualiza cada 6 segundos.
+    }, 10000); // TIEMPOOO
   }
   
   // Controla la visibilidad de la imagen asociada al estado del baño.
