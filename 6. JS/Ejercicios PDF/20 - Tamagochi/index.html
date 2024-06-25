@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,36 @@
     <script src="./main.mjs" defer></script>
     <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
 </head>
+
 <body>
     <h1>MIERDON</h1>
     <div id="mierdon">
         <img src="./img/original.gif" alt="mierdon pet" id="petM">
-        <img src="./img/caca.gif" id="cacota" style="display: none;">
+        <img src="./img/caca.gif" id="cacota">
+        <img src="./img/transparent_background_corrected.gif" id="zzz" style="display: none;" alt="Zzz">
     </div>
     <div id="interfaz">
         <div class="status">
             <label>HAMBRE:</label>
-            <progress id="foodProgress" max="100" value="50"></progress>
+            <progress id="foodProgress" max="100" value="33"></progress>
             <img src="./icons/Food_icon_p1.webp" id="foodIcon" class="imagen-redonda">
         </div>
         <div class="status">
-            <label>DIVERSION:</label>
-            <progress id="funProgress" max="100" value="50"></progress>
+            <label>FELICIDAD:</label>
+            <progress id="funProgress" max="100" value="60"></progress>
             <img src="./icons/Game_icon_p1.webp" id="funIcon" class="imagen-redonda">
         </div>
         <div class="status">
-            <label>BAÑO:</label>
-            <progress id="bathroomProgress" max="100" value="50"></progress>
+            <label>CACA:</label>
+            <progress id="bathroomProgress" max="100" value="70"></progress>
             <img src="./icons/Bathroom_icon_p1.webp" id="bathroomIcon" class="imagen-redonda">
         </div>
         <div class="status">
             <label>SUEÑO:</label>
-            <progress id="sleepProgress" max="100" value="50"></progress>
+            <progress id="sleepProgress" max="100" value="25"></progress>
             <img src="./icons/Lights_icon_p1.webp" id="sleepIcon" class="imagen-redonda">
         </div>
     </div>
 </body>
+
 </html>

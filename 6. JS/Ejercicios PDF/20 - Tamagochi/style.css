@@ -16,6 +16,10 @@ h1 {
   display: flex;
   justify-content: center;
   border-bottom: solid;
+  
+}
+#zzz{
+  height: 110px;
 }
 #interfaz {
   display: grid;
