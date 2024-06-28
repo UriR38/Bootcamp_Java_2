@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.espacioPreguntas h1,
+.numPregunta p {
+  text-align: center;
+}
+
+.respuestas {
+  display: flex;
+  flex-direction: column;
+}
+
+.respuesta {
+  background-color: #008cba;
+  color: white;
+  border: solid 1px #003e53;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.respuesta:hover {
+  background-color: #007ba7;
+}
+
+.numPregunta p {
+  font-size: 16px;
+}
+
+.next {
+  background-color: #006494;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+}
+
+.next:hover {
+  background-color: #004d70;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.vibrate {
+  animation: vibrate 0.5s linear;
+}
+
+.resultado-final {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resultado-final h1 {
+  color: #4caf50;
+}
+
+.resultado-final p {
+  font-size: 18px;
+}
+
+.resultado-final button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.resultado-final button:hover {
+  background-color: #45a049;
+}
