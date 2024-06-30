@@ -1,6 +1,6 @@
 # 📚 Ejercicios del Bootcamp
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: flex-start;">
   <img src="https://fundacionesplai.org/wp-content/uploads/2024/04/logo-fundacion-esplai-25-anos-vertical-COLOR-1.png" alt="Fundación Esplai" width="150" style="margin-right: 20px;">
   <div>
     <p>Espacio donde iré subiendo y actualizando las prácticas del bootcamp.</p>
@@ -12,7 +12,7 @@
       <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" style="margin: 2px;">
     </div>
   </div>
-</div>  
+</div>
 
 ## 📑 Tabla de Contenidos
 
