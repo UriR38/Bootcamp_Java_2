@@ -1,0 +1,19 @@
+# Clasificar archivos de JavaScript correctamente
+*.js linguist-language=JavaScript
+.mjs linguist-language=JavaScript
+
+# Clasificar archivos de TypeScript correctamente
+*.ts linguist-language=TypeScript
+
+# Clasificar archivos de HTML correctamente
+*.html linguist-language=HTML
+
+# Clasificar archivos de CSS correctamente
+*.css linguist-language=CSS
+
+# Clasificar archivos de SCSS correctamente
+*.scss linguist-language=SCSS
+
+# Evitar clasificar archivos como Roff
+*.roff linguist-language=Text
+*.man linguist-language=Text
