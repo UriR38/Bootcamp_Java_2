@@ -1,0 +1,46 @@
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+//Modificar el codigo de SCSS y cuando se procese se modificaran los cambios
+
+@import './node_modules/bootstrap/scss/functions';
+@import './node_modules/bootstrap/scss/variables';
+@import './node_modules/bootstrap/scss/mixins';
+
+$custom-breakpoints: (
+  xs: 0,
+  sm: 250px,
+  md: 500px,
+  lg: 750px,
+  xl: 1000px,
+  xxl: 1250px
+);
+
+@mixin media-breakpoint-up($min-width) {
+  @media (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($max-width) {
+  @media (max-width: $max-width) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-between($min-width, $max-width) {
+  @media (min-width: $min-width) and (max-width: $max-width) {
+    @content;
+  }
+}
+
+@include media-breakpoint-down(500px) {
+  body {
+    background-color: violet;
+  }
+}
+
+@include media-breakpoint-up(750px) {
+  body {
+    background-color: green;
+  }
+}
