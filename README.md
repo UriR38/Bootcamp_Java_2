@@ -28,8 +28,10 @@
     - [Carpeta con todos los archivos HTML 📁](#carpeta-con-todos-los-archivos-html-)
   - [4. CSS 📂](#4-css-)
     - [Carpeta con todos los archivos CSS 📁](#carpeta-con-todos-los-archivos-css-)
-  - [6. JS 📂](#6-js-)
+  - [5. Bootstrap 📂](#5-bootstrap-)
     - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js-)
+  - [6. JS 📂](#6-js-)
+    - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js--1)
 
 ---
 
@@ -112,6 +114,24 @@
 - [x] [22 - Ejercicio: Grid](./4.%20CSS/22.%20Ejercicios%20de%20Grid/)
 - [x] [23 - Ejercicio: Curriculum Amazon](./4.%20CSS/23.%20Curriculum%20Amazon/)
 - [x] [24 - Ejercicio: Lab CSS Responsive Cloning]()
+
+---
+
+## 5. Bootstrap 📂
+
+### Carpeta con todos los archivos JS 📁
+
+- 📂 [Acceder a la carpeta](./5.%20Bootstrap/)
+
+**Ejercicios de la teoría 📝**
+
+- [x] [01 - Ejercicio: Media Querys I](./5.%20Bootstrap/01%20-%20Ejercicio%20Media%20Querys/)  
+- [x] [02 - Ejercicio: Media Querys II](./5.%20Bootstrap/02%20-%20Ejercicio%20Media%20Querys%20II/)
+- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
+- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
+- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
+- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
+
 
 ---
 
