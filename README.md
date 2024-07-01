@@ -127,8 +127,8 @@
 
 - [x] [01 - Ejercicio: Media Querys I](./5.%20Bootstrap/01%20-%20Ejercicio%20Media%20Querys/)  
 - [x] [02 - Ejercicio: Media Querys II](./5.%20Bootstrap/02%20-%20Ejercicio%20Media%20Querys%20II/)
-- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
-- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
+- [x] [03 - Ejercicio: Colores I](./5.%20Bootstrap/03%20-%20Ejercicio%20Colores%20I/)
+- [x] [04 - Ejercicio: Colores II](./5.%20Bootstrap/04%20-%20Ejercicio%20Colores%20II/)
 - [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
 - [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
 
