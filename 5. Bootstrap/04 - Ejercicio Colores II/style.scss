@@ -1,0 +1,31 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+//@import "./node_modules/bootstrap/scss/utilities";  Descomentar cuando trabajemos con la versión 5.1 de Bootstrap
+@import "../node_modules/bootstrap/scss/maps";  //Comentar cuando no trabajemos con la versión 5.3 de Bootstrap
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-theme-colors: (
+	"custom-color": #8bd0da,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$utilities-colors: map-merge($utilities-colors, $theme-colors-rgb);
+$utilities-text-colors: map-loop(
+	$utilities-colors,
+	rgba-css-var,
+	"$key",
+	"text"
+);
+$utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// .bg classes not automatically generated. As an example, manually add
+// .bg-custom-color
+
+.bg-custom-color {
+	background-color: var(--bs-custom-color);
+}
