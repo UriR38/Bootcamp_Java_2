@@ -1,0 +1,63 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Modificar el codigo de SCSS y cuando se procese se modificaran los cambios
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@include media-breakpoint-down(xs) {
+  body {
+    background-color: #ffcccc;
+  }
+}
+@include media-breakpoint-down(sm) {
+  body {
+    background-color: #ffe6cc;
+  }
+}
+@include media-breakpoint-down(md) {
+  body {
+    background-color: #ffffcc;
+  }
+}
+@include media-breakpoint-down(lg) {
+  body {
+    background-color: #ccffcc;
+  }
+}
+@include media-breakpoint-down(xl) {
+  body {
+    background-color: #cce6ff;
+  }
+}
+@include media-breakpoint-down(xxl) {
+  body {
+    background-color: #e6ccff;
+  }
+}
+@include media-breakpoint-up(sm) {
+  body {
+    background-color: #ffcccc;
+  }
+}
+@include media-breakpoint-up(md) {
+  body {
+    background-color: #ffb3b3;
+  }
+}
+@include media-breakpoint-up(lg) {
+  body {
+    background-color: #ff9999;
+  }
+}
+@include media-breakpoint-up(xl) {
+  body {
+    background-color: #ff8080;
+  }
+}
+@include media-breakpoint-up(xxl) {
+  body {
+    background-color: #ff6666;
+  }
+}

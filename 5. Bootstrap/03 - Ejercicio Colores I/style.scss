@@ -1,0 +1,19 @@
+$primary: rebeccapurple;
+$secondary: red;
+$success: blue;
+$danger: yellow;
+$warning: violet;
+$info: purple;
+$light: black;
+$dark: grey;
+$body: lightblue;
+$white: orange;
+$transparent: lightgreen;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Modificar el codigo de SCSS y cuando se procese se modificaran los cambios
+
+// @import './node_modules/bootstrap/scss/functions';
+// @import './node_modules/bootstrap/scss/variables';
+// @import './node_modules/bootstrap/scss/mixins';
