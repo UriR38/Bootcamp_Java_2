@@ -11965,8 +11965,106 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  h1, .h1 {
-    background-color: red;
+.card h3, .card .h3,
+.card p {
+  margin-bottom: 1rem;
+}
+
+.card1 {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.card2 {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.card3 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card4 {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.card5 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.cabecera {
+  color: hsl(0, 0%, 100%);
+}
+
+.texto,
+.verified {
+  color: hsl(0, 0%, 81%);
+  opacity: 0.7;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.card {
+  height: 100%;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.container-centered {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  padding: 2rem !important;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .custom-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .custom-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .custom-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
