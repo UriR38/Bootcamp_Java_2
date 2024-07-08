@@ -131,8 +131,21 @@
 - [x] [02 - Ejercicio: Media Querys II](./5.%20Bootstrap/02%20-%20Ejercicio%20Media%20Querys%20II/)
 - [x] [03 - Ejercicio: Colores I](./5.%20Bootstrap/03%20-%20Ejercicio%20Colores%20I/)
 - [x] [04 - Ejercicio: Colores II](./5.%20Bootstrap/04%20-%20Ejercicio%20Colores%20II/)
-- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
-- [x] [00 - Ejercicio: ](./5.%20Bootstrap/)
+- [x] [05 - Ejercicio: Grid sin ancho definido](./5.%20Bootstrap/)
+- [x] [06 - Ejercicio: Grid con ancho definido](./5.%20Bootstrap/)
+- [x] [07 - Ejercicio: Grid adaptado a breakpoints](./5.%20Bootstrap/)
+- [x] [08 - Ejercicio: Grid responsive 01](./5.%20Bootstrap/)
+- [x] [09 - Ejercicio: Grid auto](./5.%20Bootstrap/)
+- [x] [10 - Ejercicio: Horizontal](./5.%20Bootstrap/)
+- [x] [11 - Ejercicio: Orden de columnas con breakpoints](./5.%20Bootstrap/)
+- [x] [12 - Ejercicio: Tablas](./5.%20Bootstrap/)
+- [x] [13 - Ejercicio: Web responsive I](./5.%20Bootstrap/)
+- [x] [14 - Ejercicio: Web responsive II](./5.%20Bootstrap/)
+- [x] [15 - Ejercicio: Display none](./5.%20Bootstrap/)
+- [x] [16 - Ejercicio: Grid responsive 02](./5.%20Bootstrap/)
+- [x] [17 - Ejercicio: Offset y ordenacion](./5.%20Bootstrap/)
+- [x] [18 - Ejercicio: Web responsive](./5.%20Bootstrap/)
+
 
 
 ---
