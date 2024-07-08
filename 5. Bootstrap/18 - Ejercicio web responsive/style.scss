@@ -1,0 +1,92 @@
+// Sobrescribir la variable de color primario
+$primary: rgb(56, 178, 172);
+
+// Importar las variables, funciones y mixins de Bootstrap
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+// Importar los estilos de Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Tu código SCSS personalizado
+.card-equal-height {
+    height: 100%;
+    .card-body {
+        padding: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    width: 100%;
+    transition: all 0.3s ease; // Transición suave para todos los cambios
+}
+
+.altura-buscador {
+    height: calc(1.5em + 0.75rem + 3px); // Ajuste para que el input tenga una altura coherente
+}
+
+.btn-dark {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    &:hover {
+        background-color: #333;
+        border-color: #333;
+    }
+}
+
+// Estilos adicionales para el header
+.header-row {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    border: 1px solid $primary;
+    border-radius: 0.25rem;
+}
+
+.form-control:focus {
+    border-color: $primary;
+    box-shadow: 0 0 0 0.2rem rgba(56, 178, 172, 0.25);
+}
+
+.fs-1 {
+    font-size: 1.5rem;
+}
+
+// Media queries para una mejor adaptación
+@media (max-width: 1200px) {
+    .card {
+        margin-bottom: 1rem; // Ajuste del margen inferior para pantallas grandes
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        margin-bottom: 1rem; // Ajuste del margen inferior para pantallas medianas
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem; // Ajuste del margen inferior para pantallas pequeñas
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 1rem; // Ajuste del margen inferior para pantallas muy pequeñas
+    }
+}
