@@ -1,0 +1,17 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Modificar el codigo de SCSS y cuando se procese se modificaran los cambios
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+$custom-pink: #d63384;
+$custom-orange: #fd7e14;
+
+.bg-pink-custom {
+    background-color: $custom-pink;
+}
+.bg-pink-orange {
+    background-color: $custom-orange;
+}

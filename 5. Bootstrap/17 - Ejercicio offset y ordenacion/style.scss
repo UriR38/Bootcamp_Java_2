@@ -1,0 +1,19 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Modificar el codigo de SCSS y cuando se procese se modificaran los cambios
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+@media (min-width: 768px) {
+    /* Estilos que se aplicarán cuando el ancho de pantalla sea 768px o más */
+    .margen {
+      margin-right: 20px; /* Puedes ajustar el valor del margen según tus necesidades */
+    }
+  }
+  .center-text {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
