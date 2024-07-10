@@ -34,6 +34,8 @@
     - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js-)
   - [6. JS 📂](#6-js-)
     - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js--1)
+  - [6. mySQL 📂](#6-mysql-)
+    - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js--2)
 
 ---
 
@@ -183,3 +185,17 @@
 - [x] [23 - Ejercicio: Piano](./6.%20JS/Ejercicios%20PDF/23%20-%20El%20Piano/)
 - [x] [24 - Ejercicio: PPO](./6.%20JS/Ejercicios%20PDF/24%20-%20PPO/)
 - [x] [25 - Ejercicio: Validación de Formularios utilizando Bootstrap](./6.%20JS/Ejercicios%20PDF/25%20-%20Validaciones%20con%20Bootstrap/)
+
+## 6. mySQL 📂
+
+### Carpeta con todos los archivos JS 📁
+
+- 📂 [Acceder a la carpeta](./7.%20MySQL/)
+
+**Ejercicios de la teoría 📝**
+
+- [x] [01 - Ejercicio: UML](./7.%20MySQL/01%20-%20Ejercicio%20mi%20primer%20UML/ejemploClaseAlbum.sql)
+- [x] [02 - Ejercicio: Crear y eliminas baes de datos](./7.%20MySQL/02%20-%20Ejercicio%20Crear%20y%20borrar/Ejercicio_Crear_BDD.sql)
+- [x] [03 - Ejercicio: E/R](./7.%20MySQL/03%20-%20Ejercicio%20E%20R%20/Ejercicio_ER.sql)
+- [x] [04 - Ejercicio: UML a SQL](./7.%20MySQL/04%20-%20Ejercicio%20UML%20a%20SQL/Ejercicio_UML_a_SCRIPT.sql)
+- [x] [05 - Ejercicio: Insercion de datos](./7.%20MySQL/05%20-%20Ejercicio%20Insercios%20de%20datos/Ejercicio_10Regristros.sql)
