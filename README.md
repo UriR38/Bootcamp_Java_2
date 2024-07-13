@@ -195,7 +195,15 @@
 **Ejercicios de la teoría 📝**
 
 - [x] [01 - Ejercicio: UML](./7.%20MySQL/01%20-%20Ejercicio%20mi%20primer%20UML/ejemploClaseAlbum.sql)
-- [x] [02 - Ejercicio: Crear y eliminas baes de datos](./7.%20MySQL/02%20-%20Ejercicio%20Crear%20y%20borrar/Ejercicio_Crear_BDD.sql)
+- [x] [02 - Ejercicio: Crear y eliminar bases de datos](./7.%20MySQL/02%20-%20Ejercicio%20Crear%20y%20borrar/Ejercicio_Crear_BDD.sql)
 - [x] [03 - Ejercicio: E/R](./7.%20MySQL/03%20-%20Ejercicio%20E%20R%20/Ejercicio_ER.sql)
 - [x] [04 - Ejercicio: UML a SQL](./7.%20MySQL/04%20-%20Ejercicio%20UML%20a%20SQL/Ejercicio_UML_a_SCRIPT.sql)
-- [x] [05 - Ejercicio: Insercion de datos](./7.%20MySQL/05%20-%20Ejercicio%20Insercios%20de%20datos/Ejercicio_10Regristros.sql)
+- [x] [05 - Ejercicio: Inserción de datos](./7.%20MySQL/05%20-%20Ejercicio%20Inserción%20de%20datos/Ejercicio_10Registros.sql)
+- [x] [06 - Ejercicio: Datos para una BBDD](./7.%20MySQL/06%20-%20Ejercicio%20Datos%20para%20una%20BBDD/bdd_ejer.sql)
+- [x] [07 - Ejercicio: SQLBOLT](./7.%20MySQL/07%20-%20Ejercicio%20SQLBOLT/SQLBOLT.sql)
+- [x] [08 - Ejercicio: MySQL Workbench 1](./7.%20MySQL/08%20-%20Ejercicio%20MySQL%20Workbench/mysql_workbench.sql)
+- [x] [09 - Ejercicio: MySQL Workbench 2](./7.%20MySQL/09%20-%20Ejercicio%20MySQL%20Workbench%202/mySQL_Workbench2.sql)
+- [x] [10 - Ejercicio: MySQL Workbench 3](./7.%20MySQL/10%20-%20Ejercicio%20MySQL%20Workbench%203/mySQL_Workbench3.sql)
+- [x] [11 - Ejercicio: Rollback & commit](./7.%20MySQL/11%20-%20Ejercicio%20Rollback%20&%20Commit/rollback_commit.sql)
+- [x] [Extra I - Ejercicio: Películas 1](./7.%20MySQL/Ejercicio%20Extra%20I%20-%20Peliculas%201/modeloEjercicioExtra.mwb)
+- [x] [Extra II - Ejercicio: Películas 2](./7.%20MySQL/Ejercicio%20Extra%20II%20-%20Peliculas%202/)
