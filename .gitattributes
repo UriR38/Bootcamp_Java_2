@@ -1,19 +1,116 @@
-# Clasificar archivos de JavaScript correctamente
-*.js linguist-language=JavaScript
-*.mjs linguist-language=JavaScript
+# Gitattributes file
 
-# Clasificar archivos de TypeScript correctamente
-*.ts linguist-language=TypeScript
+# Set default behavior, in case users don't have core.autocrlf set.
+* text=auto
 
-# Clasificar archivos de HTML correctamente
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.txt text
+*.md text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat eol=crlf
+*.cmd eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+
+# Handling specific programming languages
+# JavaScript files should always use LF for line endings
+*.js text eol=lf
+
+# JSON files should always use LF for line endings
+*.json text eol=lf
+
+# CSS files should always use LF for line endings
+*.css text eol=lf
+
+# HTML files should always use LF for line endings
+*.html text eol=lf
+
+# Handling C# files
+*.cs text diff=csharp
+
+# Handling Python files
+*.py text
+
+# Handling Java files
+*.java text
+
+# Handling XML files
+*.xml text
+
+# Handle markdown files
+*.md text
+
+# Handle shell scripts
+*.sh text eol=lf
+
+# Handle SQL files
+*.sql text
+
+# Custom diff for certain file types
+*.md diff=markdown
+*.html diff=html
+*.css diff=css
+
+# Handle CSV files as text
+*.csv text
+
+# Exclude sensitive files from diff
+*.pem diff=ignore
+*.key diff=ignore
+
+# Merge strategy for certain file types
+*.lock merge=union
+*.json merge=union
+
+# Custom attributes
+*.ps1 diff=powershell
+*.vb diff=vbscript
+*.lua diff=lua
+
+# Handle large binary files
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# Custom binary files
+*.exe binary
+*.dll binary
+*.so binary
+
+# Linguist overrides (if using GitHub Linguist for language stats)
+*.md linguist-language=Markdown
 *.html linguist-language=HTML
 
-# Clasificar archivos de CSS correctamente
-*.css linguist-language=CSS
+# Ensure some files are never normalized
+*.dat -text
 
-# Clasificar archivos de SCSS correctamente
-*.scss linguist-language=SCSS
+# Specific settings for documentation files
+docs/** text
 
-# Evitar clasificar archivos como Roff
-*.roff linguist-language=Text
-*.man linguist-language=Text
+# Specific settings for image files in a specific folder
+images/** binary
+
+# Folder-level settings
+folder1/** text=auto
+folder2/** binary
+
+# Override for special files
+*.svg text
+*.xcf binary
