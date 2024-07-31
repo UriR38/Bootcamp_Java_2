@@ -34,8 +34,10 @@
     - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js-)
   - [6. JS 📂](#6-js-)
     - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js--1)
-  - [6. mySQL 📂](#6-mysql-)
+  - [7. mySQL 📂](#7-mysql-)
     - [Carpeta con todos los archivos JS 📁](#carpeta-con-todos-los-archivos-js--2)
+  - [8. Java 📂](#8-java-)
+    - [Carpeta con todos los archivos Java 📁](#carpeta-con-todos-los-archivos-java-)
 
 ---
 
@@ -186,7 +188,7 @@
 - [x] [24 - Ejercicio: PPO](./6.%20JS/Ejercicios%20PDF/24%20-%20PPO/)
 - [x] [25 - Ejercicio: Validación de Formularios utilizando Bootstrap](./6.%20JS/Ejercicios%20PDF/25%20-%20Validaciones%20con%20Bootstrap/)
 
-## 6. mySQL 📂
+## 7. mySQL 📂
 
 ### Carpeta con todos los archivos JS 📁
 
@@ -207,3 +209,66 @@
 - [x] [11 - Ejercicio: Rollback & commit](./7.%20MySQL/11%20-%20Ejercicio%20Rollback%20&%20Commit/rollback_commit.sql)
 - [x] [Extra I - Ejercicio: Películas 1](./7.%20MySQL/Ejercicio%20Extra%20I%20-%20Peliculas%201/modeloEjercicioExtra.mwb)
 - [x] [Extra II - Ejercicio: Películas 2](./7.%20MySQL/Ejercicio%20Extra%20II%20-%20Peliculas%202/)
+
+## 8. Java 📂
+
+### Carpeta con todos los archivos Java 📁
+
+- 📂 [Acceder a la carpeta](./8.%20Java/)
+
+**Ejercicios de la teoría 📝**
+
+- [x] [01 - Ejercicio Mi primer programa de Java](./8.%20Java/01%20-%20Ejercicio%20Mi%20primer%20programa%20de%20Java/Main.java)
+- [x] [02 - Ejercicio Comentarios](./8.%20Java/02%20-%20Ejercicio%20Comentarios/Main.java)
+- [x] [03 - Ejercicio Secuencias de Escape](./8.%20Java/03%20-%20Ejercicio%20Secuencias%20de%20Escape/Main.java)
+- [x] [04 - Ejercicio Números primitivos](./8.%20Java/04%20-%20Ejercicio%20Numeros%20primitivos/Main.java)
+- [x] [05 - Ejercicio Rango Circular](./8.%20Java/05%20-%20Ejercicio%20Rango%20Circular/Main.java)
+- [x] [06 - Ejercicio Transformar en constantes](./8.%20Java/06%20-%20Ejercicio%20Transformar%20en%20constantes/Main.java)
+- [x] [07 - Ejercicio Rangos](./8.%20Java/07%20-%20Ejercicio%20Rangos%20/rangos.docx)
+- [x] [08 - Ejercicio Concatenación](./8.%20Java/08%20-%20Ejercicio%20Concatenación/Main.java)
+- [x] [09 - Ejercicio Operadores Aritméticos](./8.%20Java/09%20-%20Ejercicio%20Operadores%20Aritmeticos/Main.java)
+- [x] [10 - Ejercicio Operadores Aritméticos Incrementales](./8.%20Java/10%20-%20Ejercicio%20Operadores%20Aritmeticos%20Incrementales/Main.java)
+- [x] [11 - Ejercicio Operadores Aritméticos Combinados](./8.%20Java/11%20-%20Ejercicio%20Operadores%20Aritmeticos%20Combinados/Main.java)
+- [x] [12 - Ejercicio Operadores de Relación](./8.%20Java/12%20-%20Ejercicio%20Operadores%20de%20Relacion/Main.java)
+- [x] [13 - Ejercicio Operadores Lógicos y Booleanos 1](./8.%20Java/13%20-%20Ejercicio%20Operadores%20Logicos%20y%20Booleanos%201/Main.java)
+- [x] [14 - Ejercicio Operadores Lógicos y Booleanos 2](./8.%20Java/14%20-%20Ejercicio%20Operadores%20Logicos%20y%20Booleanos%202/Main.java)
+- [x] [15 - Ejercicio Estructuras Condicionales](./8.%20Java/15%20-%20Ejercicio%20Estructuras%20Condicionales/Main.java)
+- [x] [16 - Ejercicio Estructuras Condicionales](./8.%20Java/16%20-%20Ejercicio%20Estructuras%20Condicionales/Main.java)
+- [x] [17 - Ejercicio Estructuras Repetitivas](./8.%20Java/17%20-%20Ejercicio%20Estructuras%20Repetitivas/Main.java)
+- [x] [18 - Ejercicio Instrucciones de Salto](./8.%20Java/18%20-%20Ejercicio%20Instrucciones%20de%20Salto/Main.java)
+- [x] [19 - Ejercicio Funciones](./8.%20Java/19%20-%20Ejercicio%20Funciones/Main.java)
+- [x] [20 - Ejercicio Banderas en ANSI](./8.%20Java/20%20-%20Ejercicio%20Banderas%20en%20ANSI/Main.java)
+- [x] [21 - Ejercicio Bucles de Colores](./8.%20Java/21%20-%20Ejercicio%20Bucles%20de%20Colores/Main.java)
+- [x] [22 - Ejercicio Pintando el Árbol](./8.%20Java/22%20-%20Ejercicio%20Pintando%20el%20Arbon/Main.java)
+- [x] [23 - Ejercicio Tablas](./8.%20Java/23%20-%20Ejercicio%20Tablas/Main.java)
+- [x] [24 - Ejercicio Tipos de datos](./8.%20Java/24%20-%20Ejercicio%20Tipos%20de%20datos/Main.java)
+- [x] [25 - Ejercicio Conversiones](./8.%20Java/25.%20-%20Ejercicio%20Conversiones/Main.java)
+- [x] [26 - Ejercicios de printf](./8.%20Java/26%20-%20Ejercicios%20de%20printf/Main.java)
+- [x] [27 - Ejercicio tabla con printf](./8.%20Java/27%20-%20Ejercicio%20tabla%20con%20printf/Main.java)
+- [x] [28 - Ejercicio Packages](./8.%20Java/28%20-%20Ejercicio%20Packages/src/)
+- [x] [29 - Ejercicio Recursividad](./8.%20Java/29%20-%20Ejercicio%20Recursividad/Main.java)
+- [x] [30 - Ejercicio Clase Coche](./8.%20Java/30%20-%20Ejercicio%20Clase%20Coche/Car.java)
+- [x] [31 - Ejercicio Clase Tarjeta](./8.%20Java/31%20-%20Ejercicio%20Clase%20Tarjeta/Banco.java)
+- [x] [32 - Ejercicio Herencias I](./8.%20Java/32%20-%20Ejercicio%20Herencias%20I/src/)
+- [x] [33 - Ejercicio Herencias II](./8.%20Java/33%20-%20Ejercicio%20Herencias%20II/src/)
+- [x] [34 - Ejercicio Herencias III](./8.%20Java/34%20-%20Ejercicio%20Herencias%20III/src/)
+- [x] [35 - Ejercicio Clases Abstractas](./8.%20Java/35%20-%20Ejercicio%20Clases%20Abstractas/src/)
+- [x] [36 - Ejercicio Interfaces](./8.%20Java/36%20-%20Ejercicio%20Interfaces/src/)
+- [x] [37 - Ejercicio Polimorfismo](./8.%20Java/37%20-%20Ejercicio%20Polimosfirmo/src/)
+- [x] [38 - Ejercicio de Scanner](./8.%20Java/38%20-%20Ejercicio%20de%20Scanner/src/)
+- [x] [39 - Ejercicio Tres en Raya](./8.%20Java/39%20-%20Ejercicio%20Tres%20en%20Ralla/src/)
+- [x] [40 - Ejercicio Scanner useLocale](./8.%20Java/40%20-%20Ejercicio%20Scanner%20useLocale/src/)
+- [x] [41 - Ejercicio Argumentos](./8.%20Java/41%20-%20Ejercicio%20Argumentos/src/)
+- [x] [42 - Ejercicio Enums](./8.%20Java/42%20-%20Ejercicio%20Enums/src/)
+- [x] [43 - Ejercicio CRUD mySQL I](./8.%20Java/43%20-%20Ejercicio%20CRUD%20mySQL%20I/src/)
+- [x] [44 - Ejercicio CRUD mySQL II](./8.%20Java/44%20-%20Ejercicio%20CRUD%20mySQL%20II/src/)
+- [x] [45 - Ejercicio showMessageDialog I](./8.%20Java/45%20-%20Ejercicio%20showMessageDialog%20I/Main.java)
+- [x] [46 - Ejercicio showMessageDialog II](./8.%20Java/46%20-%20Ejercicio%20showMessageDialog%20II/src/)
+- [x] [47 - Ejercicio showMessageDialog III](./8.%20Java/47%20-%20Ejercicio%20showMessageDialog%20III/src/)
+- [x] [48 - Ejercicio Contenedor JFrame](./8.%20Java/48%20-%20Ejercicio%20Contenedor%20JFrame/Main.java)
+- [x] [49 - Ejercicio Border Layout](./8.%20Java/49%20-%20Ejercicio%20Border%20Layout/Main.java)
+- [x] [50 - Ejercicio Flow Layout](./8.%20Java/50%20-%20Ejercicio%20Flog%20Layout/Main.java)
+- [x] [51 - Ejercicio Grid Layout](./8.%20Java/51%20-%20Ejercicio%20Grid%20Layout/Main.java)
+- [x] [52 - Ejercicio Hundir la Flota](./8.%20Java/52%20-%20Ejercicio%20Hundir%20la%20Flota/src/)
+- [x] [53 - Ejercicio Coche Builder](./8.%20Java/53%20-%20Ejercicio%20Coche%20Builder/src/)
+- [x] [54 - Ejercicio Patrones de Diseño](./8.%20Java/54%20-%20Ejercicio%20Patrones%20de%20Diseño/src/)
