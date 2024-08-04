@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "24e44d8c-aa60-4233-b5c4-953397582c99",
+		"name": "ChuckNorris",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37354355"
+	},
+	"item": [
+		{
+			"name": "random Chuck Norris joke",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.chucknorris.io/jokes/random",
+					"protocol": "https",
+					"host": [
+						"api",
+						"chucknorris",
+						"io"
+					],
+					"path": [
+						"jokes",
+						"random"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
